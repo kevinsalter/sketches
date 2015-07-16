@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sketches</title>
+    <atom:link href="http://kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://kevinsalter.me</link>
+    <description>✍</description>
+    <pubDate>Tue, 14 Jul 2015 17:00:00 -0700</pubDate>
+    <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
+    <language>en</language>
+    <item>
+      <title>Sketch 1</title>
+      <link>http://kevinsalter.me/articles/sketch-1/</link>
+      <pubDate>Tue, 14 Jul 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://kevinsalter.me/articles/sketch-1/</guid>
+      <author></author>
+      <description>&lt;p&gt;Some intro text…&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/articles/sketch-1/example-sketch1.jpg&quot; alt=&quot;Sketch 1&quot;&gt;
+&lt;img src=&quot;/articles/sketch-1/example-sketch2.jpg&quot; alt=&quot;Sketch 2&quot;&gt;
+&lt;img src=&quot;/articles/sketch-1/example-sketch3.jpg&quot; alt=&quot;Sketch 3&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>
