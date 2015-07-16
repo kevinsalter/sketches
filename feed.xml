@@ -2,23 +2,35 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sketches</title>
-    <atom:link href="http://kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://kevinsalter.me</link>
+    <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Tue, 14 Jul 2015 17:00:00 -0700</pubDate>
+    <pubDate>Wed, 15 Jul 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>Sketch 1</title>
-      <link>http://kevinsalter.me/articles/sketch-1/</link>
-      <pubDate>Tue, 14 Jul 2015 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://kevinsalter.me/articles/sketch-1/</guid>
+      <title>the gameplan</title>
+      <link>sketches.kevinsalter.me/articles/1-gameplan/</link>
+      <pubDate>Wed, 15 Jul 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/1-gameplan/</guid>
       <author></author>
-      <description>&lt;p&gt;Some introduction text…&lt;/p&gt;
+      <description>&lt;p&gt;So, I’ve created an &lt;a href=&quot;https://7geese.com/okrs/&quot;&gt;OKR&lt;/a&gt; for my Q3 at 7Geese, &lt;strong&gt;“12 sketches in 12 weeks”&lt;/strong&gt;, and tagged it with the &lt;code&gt;Learning and Growth&lt;/code&gt; label.
+&lt;br&gt;&lt;br&gt;
+I’ve been meaning to get back to sketching UI and UX workflow ideas for a while now.  It’s a great way to brainstorm and explore ideas &lt;em&gt;away from the computer&lt;/em&gt; for several reasons:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/articles/sketch-1/example-sketch1.jpg&quot; alt=&quot;Sketch 1&quot;&gt;
-&lt;img src=&quot;/articles/sketch-1/example-sketch2.jpg&quot; alt=&quot;Sketch 2&quot;&gt;
-&lt;img src=&quot;/articles/sketch-1/example-sketch3.jpg&quot; alt=&quot;Sketch 3&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;it’s the fastest/cheapest way to ideate and explore a few trains of thought quickly&lt;/li&gt;
+&lt;li&gt;thinking with your hands and physical tools like pencil and paper provide a nice change in pace from digital tools&lt;/li&gt;
+&lt;li&gt;sketching is low fidelity, which tends to invite commentary and foster better conversations around the ideas being presented&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Finally, with so many interesting things on the 7Geese feature roadmap, this will be a useful way jot down some ideas before we form teams and start building things.&lt;/p&gt;
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    sketches from past projects
+&lt;/span&gt;
+&lt;img src=&quot;/articles/1-gameplan/dashboard-sketch.jpg&quot; alt=&quot;Dashboard Sketch&quot;&gt;
+&lt;img src=&quot;/articles/1-gameplan/phone-sketch.jpg&quot; alt=&quot;Phone Sketch&quot;&gt;&lt;/p&gt;
 </description>
     </item>
   </channel>
