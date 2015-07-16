@@ -5,7 +5,7 @@ date: 2015-07-15
 template: article.jade
 ---
 
-Some intro text...
+Some introduction text...
 
 <span class="more"></span>
 
