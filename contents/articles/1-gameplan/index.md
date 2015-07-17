@@ -5,7 +5,7 @@ date: 2015-07-16
 template: article.jade
 ---
 
-So, I've created an [OKR](https://7geese.com/okrs/) for my Q3 at 7Geese, <strong>"12 sketches in 12 weeks"</strong>, and tagged it with the `Learning and Growth` label.
+So, I've created an [OKR](https://7geese.com/okrs/) for my Q3 at 7Geese, <strong>"12 sketches in 12 weeks"</strong>, and tagged it with the <code class="learn-and-grow">Learning and Growth</code> label.
 <br><br>
 I've been meaning to get back to sketching UI and UX workflow ideas for a while now.  It's a great way to brainstorm and explore ideas _away from the computer_ for several reasons:
 

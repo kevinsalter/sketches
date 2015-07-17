@@ -351,6 +351,12 @@ p code {
   white-space: nowrap;
 }
 
+/* Learning and Growth label*/
+.learn-and-grow {
+  background-color: #E7FFD0;
+  background-color: rgb(231, 255, 208);
+}
+
 /* syntax hl stuff */
 
 code.lang-markdown {
