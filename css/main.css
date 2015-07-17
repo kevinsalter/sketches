@@ -289,8 +289,8 @@ footer .copy, footer .copy a {
   text-decoration: none;
 }
 .archive li:not(:last-child) {
-	border-bottom: 1px solid #d2d2d2;
-	margin-bottom: -1px;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: -1px;
 }
 
 .archive a.last, .archive span.last {
@@ -327,6 +327,37 @@ footer .copy, footer .copy a {
 
 .archive ul li {
   margin: 0;
+}
+
+.footnote {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 0.6em;
+  background: #fff;
+  border: 1px dashed #d2d2d2;
+  border-radius: 0.25em;
+  margin-bottom: 1.8em;
+  padding: 1em;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+/* Single-line list items */
+ul.inline,
+ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+ul.inline > li,
+ol.inline > li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* code styling */
