@@ -440,6 +440,9 @@ code.lang-markdown .bullet {
   .header .description {
     font-size: 1em;
   }
+  .coffee-cup::before {
+    width: 22px;
+  }
   .article {
     margin: 1em 0 2.5em;
   }
