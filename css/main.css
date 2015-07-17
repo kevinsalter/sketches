@@ -176,6 +176,7 @@ footer .copy, footer .copy a {
 .coffee-cup::before {
   content: '\2615'; /* coffee cup ☕︎ */
   font-size: 14px;
+  width: 19px;
   display: inline-block;
   vertical-align: middle;
 }
