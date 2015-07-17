@@ -441,6 +441,7 @@ code.lang-markdown .bullet {
     font-size: 1em;
   }
   .coffee-cup::before {
+    font-size: 13px;
     width: 22px;
   }
   .article {
