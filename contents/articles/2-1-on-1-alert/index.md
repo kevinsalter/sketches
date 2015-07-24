@@ -25,7 +25,7 @@ Answering these questions for users could improve a couple of the answers that D
 
 In a culture of Continuous Performance Management, the habit of regular 1-on-1s is vital.  Furthermore, if you have a management role, this can involve participating in different 1-on-1s as both a facilitator and subject.  The case can then be made for the value of having a prominent alert that keeps the user engaged in the 1-on-1 workflows within 7Geese.
 
-The top-right area of the navigation seems like a logical place for an alert like this to live since it would be close to other in-app notifications.  Inside the popover the user is presented with a concise, plain English representation of their pending 1-on-1 commitments (basically, any 1-on-1s that are in Draft Mode for that user).  There a two possible actions that can be performed on each list item:
+The top-right area of the navigation seems like a logical place for an alert like this to live since it would be close to other in-app notifications.  Inside the popover the user is presented with a concise, plain English representation of their pending 1-on-1 commitments (basically, any 1-on-1s that are in Draft Mode for that user).  There are two possible actions that can be performed on each list item:
 
 1. click the calendar icon to go directly to Google calendar
 2. clicking the body of the message would redirect the user to the individual page for that particular 1-on-1.
