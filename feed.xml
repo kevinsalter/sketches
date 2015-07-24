@@ -29,13 +29,17 @@
 &lt;p&gt;Answering these questions for users could improve a couple of the answers that Dave recently received from users to the question &lt;a href=&quot;https://7geese.atlassian.net/wiki/pages/viewpage.action?pageId=12714000&quot;&gt;Can you tell us why you checked-in today?&lt;/a&gt;.&lt;/p&gt;
 &lt;h4 id=&quot;1-on-1-alert&quot;&gt;1-on-1 Alert&lt;/h4&gt;
 &lt;p&gt;In a culture of Continuous Performance Management, the habit of regular 1-on-1s is vital.  Furthermore, if you have a management role, this can involve participating in different 1-on-1s as both a facilitator and subject.  The case can then be made for the value of having a prominent alert that keeps the user engaged in the 1-on-1 workflows within 7Geese.&lt;/p&gt;
-&lt;p&gt;The top-right of the navigation seems like a logical place for an alert like this to live since it would be close to other in-app notifications.  Inside the popover the user is presented with a concise, plain English representation of their pending 1-on-1 commitments.  There a two possible actions that can be performed on each list item: &lt;em&gt;1.&lt;/em&gt; click the calendar icon to go directly to Google calendar; and &lt;em&gt;2.&lt;/em&gt; clicking the body of the message would redirect the user to the individual page for that particular 1-on-1.&lt;/p&gt;
+&lt;p&gt;The top-right of the navigation seems like a logical place for an alert like this to live since it would be close to other in-app notifications.  Inside the popover the user is presented with a concise, plain English representation of their pending 1-on-1 commitments (basically, any 1-on-1s that are in Draft Mode for that user).  There a two possible actions that can be performed on each list item:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;click the calendar icon to go directly to Google calendar&lt;/li&gt;
+&lt;li&gt;clicking the body of the message would redirect the user to the individual page for that particular 1-on-1.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
     scheduled 1-on-1 alert concept
 &lt;/span&gt;
-&lt;img src=&quot;/articles/2-1-on-1-alert/1-on-1-alert.jpg&quot; alt=&quot;1-on-1 Alert&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/articles/2-1-on-1-alert/1-on-1-alert.jpg&quot; alt=&quot;1-on-1 Alert Concept Sketch&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>
