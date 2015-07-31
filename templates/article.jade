@@ -11,8 +11,11 @@ block header
   include author
   h1= page.title
   p.author
-    span.coffee-cup
-    mixin author(page.metadata.author)
+    p.author(style="max-width:350px;margin:0 auto 1em;text-transform:none;")
+      span thought experiments and ui/ux wireframing for personal reflection and feedback from the 7Geese flock
+    p.author(style="margin-bottom:0.45em;")
+      span.coffee-cup
+      mixin author(page.metadata.author)
 
 block content
   article.article
