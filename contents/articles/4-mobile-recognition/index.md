@@ -54,7 +54,7 @@ In the simplest terms, the act of giving recognition is quick and easy to do.  I
 Here are a few considerations when designing a mobile experience:
 - elements should be sized appropriately
     - _design for fat fingers, pictorial icons_
-- use animations, maybe SVG morphing controls?
+- [use animations](http://tympanus.net/Development/CardExpansion/), maybe [SVG morphing icons](http://tympanus.net/Development/AnimatedSVGIcons/)?
     - **this is supposed to be fun!!**
 - there might be better [alternatives to dropdowns](http://www.lukew.com/ff/entry.asp?1950)
 - how does the navigation work?
