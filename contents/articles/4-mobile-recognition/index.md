@@ -101,6 +101,16 @@ Here are a few considerations when designing a mobile experience:
 <p class="article-end"></p>
 
 <span class="annotation">
-    each rectangle is the size of an iPhone 6 screen
+    note: each rectangle in the wireframes below is the size of an iPhone 6 screen
 </span>
-![Pic 1](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+<br>
+<span class="annotation">
+    2 possible UIs for choosing a coworker to recognize
+</span>
+![Choose a colleague ideas](choose-a-colleague.jpg)
+![Choose a colleague ideas 2](choose-a-colleague2.jpg)
+<hr>
+<span class="annotation">
+    giving a recognition, looking at a recognition, navigation
+</span>
+![Recognition and Nav ideas](recognition-and-nav.jpg)
