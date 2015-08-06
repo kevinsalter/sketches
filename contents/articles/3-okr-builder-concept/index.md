@@ -1,5 +1,5 @@
 ---
-title: "OKR Builder Concept"
+title: "OKR builder concept"
 author: kevinsalter
 date: 2015-07-31
 template: article.jade

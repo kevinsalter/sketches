@@ -5,11 +5,110 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Thu, 30 Jul 2015 17:00:00 -0700</pubDate>
+    <pubDate>Thu, 06  Aug 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>OKR Builder Concept</title>
+      <title>starting to imagine mobile recognition</title>
+      <link>sketches.kevinsalter.me/articles/4-mobile-recognition/</link>
+      <pubDate>Thu, 06  Aug 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/4-mobile-recognition/</guid>
+      <author></author>
+      <description>&lt;p&gt;While there are debates around how a modern employee recognition program might operate, it’s clear that there is tremendous value in being able to &lt;a href=&quot;https://www.officevibe.com/facegame&quot;&gt;recognize your colleagues&lt;/a&gt;.
+&lt;br&gt;&lt;br&gt;
+…
+&lt;br&gt;&lt;br&gt;
+Seriously though, it’s obvious that showing appreciation and receiving kudos from teammates builds morale and makes people feel more connected to each other.  But should it be a core focus of a company, or is it just an annoying thing aimed at ‘millennials’?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;the-7geese-flavour-of-love-recognition&quot;&gt;The 7Geese flavour of &lt;del&gt;love&lt;/del&gt; recognition&lt;/h4&gt;
+&lt;p&gt;At 7Geese, recognition badges represent a company’s core values; awarding badges to colleagues then helps strengthen each person’s alignment to those values.&lt;/p&gt;
+&lt;p&gt;I love that simplicity.  It’s also a really nice parallel to the way OKRs strengthen the alignment of everyone’s goals.&lt;/p&gt;
+&lt;h4 id=&quot;what-is-recognition-good-for-&quot;&gt;What is recognition good for?&lt;/h4&gt;
+&lt;p&gt;For many 7Geese users, being recognized by a co-worker is a &lt;a href=&quot;http://genius.com/Alex-schultz-lecture-6-growth-annotated&quot;&gt;“magic moment”&lt;/a&gt;– an instant where a user feels the platform delivering its core value and building its stickiness.&lt;/p&gt;
+&lt;p&gt;Since recognition can come from anyone (peers, managers, reports) it can help to unify teams, proactively reinforce good performance, and foster a sense of appreciation and belonging across the entire team.  New employees being on-boarded can quickly get a direct sense of what that company is about.  And the public nature of recognition means people are noticing that your work is getting noticed.&lt;/p&gt;
+&lt;p&gt;Zooming out a bit, the trend of recognition given over a period of time could be an interesting data point for company leaders to help gauge employees’ alignment to the company’s core values.&lt;/p&gt;
+&lt;h4 id=&quot;arguments-against-recognition-and-way-better-counterarguments-&quot;&gt;Arguments against recognition (…and way better counterarguments)&lt;/h4&gt;
+&lt;p&gt;It’s also important to define what recognition is &lt;strong&gt;not&lt;/strong&gt;– &lt;em&gt;i.e.&lt;/em&gt; it doesn’t acknowledge any employee’s tenure, metrics or stats related to their job (there are no leaderboards!), and it’s not meant to gamify an employee’s training experience (meaning, you don’t get a ‘prize’ after each level), for example.&lt;/p&gt;
+&lt;p&gt;That being said, there are still a few arguments we’ve received against recognition’s effectiveness.&lt;/p&gt;
+&lt;p&gt;The most reasonable one I’ve heard so far is that it can be annoying at larger companies to see a feed full of recognitions, some of which you may not care about.  There’s likely a case to be made for allowing users to opt in/out of which recognitions hit their feed and, conversely, if employees wanted to be more private, and limit the publicity of recognitions they have received (even though that kind of defeats the purpose…).&lt;/p&gt;
+&lt;p&gt;Another complaint is that people are being recognized too frequently, and that it can feel like a bit of a popularity contest.  The answer to this could be as simple as teaching people to ask &lt;em&gt;“Is this something that could happen everyday?”&lt;/em&gt;, and if the answer is &lt;em&gt;yes&lt;/em&gt;, it’s not recognition.  Recognition must me authentic and genuine, or else it’s not worth the pixels on the screen.&lt;/p&gt;
+&lt;p&gt;I also think it’d be an interesting experiment to limit the frequency of recognitions– &lt;code&gt;more scarcity == more valuable&lt;/code&gt;.  For example, maybe you can only give out 1 recognition per week, or only recognize one person per month.  The purpose wouldn’t be to limit users, but just ensure some common sense guidelines were being followed.  The details would have to be worked out, but it might help people to give proper consideration before recognizing someone, and make recognitions harder to ‘abuse’.&lt;/p&gt;
+&lt;p&gt;Finally, there’s the argument that “I’m not a millennial, I don’t need to be recognized for doing my job.”  In my opinion, that’s straight bull$h!t.  But don’t take my word for it!  Harvard Medical School published an article a few years ago explaining how &lt;a href=&quot;http://www.health.harvard.edu/newsletter_article/in-praise-of-gratitude&quot;&gt;gratitude helps people feel more positive emotions, relish good experiences, improve their health, deal with adversity, and build strong relationships&lt;/a&gt;.  And Harvard is never wrong, so…&lt;/p&gt;
+&lt;h4 id=&quot;is-mobile-the-right-format-&quot;&gt;Is mobile the right format?&lt;/h4&gt;
+&lt;p&gt;Since our Q3 meeting, I’ve been interested in the idea of each module of 7Geese being its own mobile app.  It makes sense, since we have some customers who only use (or only &lt;em&gt;want&lt;/em&gt; to use) 7Geese for recognition, or only for 1-on-1s.  So it makes sense to think for a minute about why mobile would be a good format for an individual module like recognition.&lt;/p&gt;
+&lt;p&gt;In the simplest terms, the act of giving recognition is quick and easy to do.  It’s an impulsive action that doesn’t require any preparation.  I could be on the SkyTrain on my way home from the office and remember that I wanted to recognize a colleague.  I whip out my phone, and 💥.  That kind of ease would also facilitate timely recognition which, as we know, &lt;a href=&quot;http://support.7geese.com/hc/en-us/articles/204411167-Tips-On-Recognizing-a-Teammate&quot;&gt;(is more effective)&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&quot;some-mobile-best-practices&quot;&gt;Some mobile best practices&lt;/h4&gt;
+&lt;p&gt;Here are a few considerations when designing a mobile experience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;elements should be sized appropriately&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;design for fat fingers, pictorial icons&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;use animations, maybe SVG morphing controls?&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;this is supposed to be fun!!&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;there might be better &lt;a href=&quot;http://www.lukew.com/ff/entry.asp?1950&quot;&gt;alternatives to dropdowns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;how does the navigation work?&lt;ul&gt;
+&lt;li&gt;I’m leaning towards a fullscreen nav motif throughout the app (i.e. popovers, dialogs, and navigation would all take up the full screen while they’re being used)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;how many clicks/swipes are required to accomplish a certain task?&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://uxmyths.com/post/654026581/myth-all-pages-should-be-accessible-in-3-clicks&quot;&gt;not that that matters?&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;mobile internet is slow&lt;ul&gt;
+&lt;li&gt;is the app simple, and the payload to the browser as small as it can be?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;design patterns: &lt;a href=&quot;https://blog.intercom.io/why-cards-are-the-future-of-the-web/&quot;&gt;cards&lt;/a&gt; vs &lt;a href=&quot;http://blog.uxpin.com/6774/5-creative-mobile-ui-patterns-navigation/&quot;&gt;grids&lt;/a&gt; vs &lt;a href=&quot;http://www.nngroup.com/articles/image-vs-list-mobile-navigation/&quot;&gt;lists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;how much of the app can i navigate using only one hand?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;what-are-some-of-the-screens-we-ll-need-&quot;&gt;What are some of the screens we’ll need?&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;login&lt;/li&gt;
+&lt;li&gt;navigation&lt;/li&gt;
+&lt;li&gt;browse colleagues&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;also browse departments or teams?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;recognition form (for giving recognition)&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;recognize individuals, groups, and departments?&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;list (feed) of recognition given out&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;ability to filter by person / team / badge&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;individual recognition pages&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;with comments&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ability to “like”&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;social sharing&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;social sharing button’s overlay/dialog&lt;/li&gt;
+&lt;li&gt;list of available badges with descriptions&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Admins:&lt;/em&gt; create and edit badges&lt;ul&gt;
+&lt;li&gt;badge name&lt;/li&gt;
+&lt;li&gt;description of badge&lt;/li&gt;
+&lt;li&gt;which departments can use it?&lt;/li&gt;
+&lt;li&gt;upload an image&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;by the way, Digital Ocean has &lt;a href=&quot;http://drbl.in/mZXI&quot;&gt;some really nicely designed core values badges&lt;/a&gt;, worth checking out&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    each rectangle is the size of an iPhone 6 screen
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;Pic 1&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>OKR builder concept</title>
       <link>sketches.kevinsalter.me/articles/3-okr-builder-concept/</link>
       <pubDate>Thu, 30 Jul 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">sketches.kevinsalter.me/articles/3-okr-builder-concept/</guid>
