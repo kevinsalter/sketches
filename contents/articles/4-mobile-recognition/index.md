@@ -58,7 +58,6 @@ Here are a few considerations when designing a mobile experience:
     - **this is supposed to be fun!!**
 - there might be better [alternatives to dropdowns](http://www.lukew.com/ff/entry.asp?1950)
 - how does the navigation work?
-    - I'm leaning towards a fullscreen nav motif throughout the app (i.e. popovers, dialogs, and navigation would all take up the full screen while they're being used)
 - how many clicks/swipes are required to accomplish a certain task?
     - _[not that that matters?](http://uxmyths.com/post/654026581/myth-all-pages-should-be-accessible-in-3-clicks)_
 - mobile internet is slow
@@ -70,8 +69,10 @@ Here are a few considerations when designing a mobile experience:
 
 1. login
 2. navigation
+    - I'm leaning towards a fullscreen nav motif throughout the app (i.e. popovers, dialogs, and navigation would all take up the full screen while they're being used)
 3. browse colleagues
     - _also browse departments or teams?_
+    - choosing a colleague then opens recognition form with the person pre-selected
 4. recognition form (for giving recognition)
     - _recognize individuals, groups, and departments?_
     - choose user(s)
@@ -80,12 +81,16 @@ Here are a few considerations when designing a mobile experience:
     - checkbox: notify recipient's manager? department(s)?
 5. list (feed) of recognition given out
     - _ability to filter by person / team / badge_
+    - each list item links to individual recognition
+    - ability to "like" or share without having to go to individual recognition (swipe left on iOS)
 6. individual recognition pages
     - _with comments_
     - _ability to "like"_
     - _social sharing_
-7. social sharing button's overlay/dialog
+7. social sharing button's overlay/dialog (full screen)
 8. list of available badges with descriptions
+    - choosing a badge shows the description of that badge (full screen)
+    - when in full screen, there's an 'x' to close the overlay, and a CTA button to give that badge to someone, which then opens the recognition form with that badge pre-selected
 9. _Admins:_ create and edit badges
     - badge name
     - description of badge
