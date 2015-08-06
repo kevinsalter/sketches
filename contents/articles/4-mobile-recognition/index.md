@@ -74,6 +74,10 @@ Here are a few considerations when designing a mobile experience:
     - _also browse departments or teams?_
 4. recognition form (for giving recognition)
     - _recognize individuals, groups, and departments?_
+    - choose user(s)
+    - write description
+    - choose badge
+    - checkbox: notify recipient's manager? department(s)?
 5. list (feed) of recognition given out
     - _ability to filter by person / team / badge_
 6. individual recognition pages
