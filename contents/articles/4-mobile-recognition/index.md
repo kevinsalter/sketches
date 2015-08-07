@@ -44,9 +44,11 @@ Finally, there's the argument that "I'm not a millennial, I don't need to be rec
 
 #### Is mobile the right format?
 
-Since our Q3 meeting, I've been interested in the idea of each module of 7Geese being its own mobile app.  It makes sense, since we have some customers who only use (or only _want_ to use) 7Geese for recognition, or only for 1-on-1s.  So it makes sense to think for a minute about why mobile would be a good format for an individual module like recognition.
+Since our Q3 meeting, I've been interested in the idea of each module of 7Geese being its own mobile app.  It makes sense, since we have some customers who only use 7Geese for recognition, and I've read feedback from another customer who wants to use 7Geese only for doing his 1-on-1s.  We've also got an "OKR only" tier, so it makes sense that we'd have an OKR only app.
 
-In the simplest terms, the act of giving recognition is quick and easy to do.  It's an impulsive action that doesn't require any preparation.  I could be on the SkyTrain on my way home from the office and remember that I wanted to recognize a colleague.  I whip out my phone, and 💥.  That kind of ease would also facilitate timely recognition which, as we know, [(is more effective)](http://support.7geese.com/hc/en-us/articles/204411167-Tips-On-Recognizing-a-Teammate).
+So let's think for a minute about why mobile would be a good format for an individual module like recognition.
+
+In the simplest terms, the act of giving recognition is quick and easy to do.  It's an impulsive action that doesn't require any preparation.  I could be on the SkyTrain on my way home from the office and remember that I wanted to recognize a colleague.  I whip out my phone, and 💥.  That kind of ease and convenience would also facilitate timely recognition which, as we know, [(is more effective)](http://support.7geese.com/hc/en-us/articles/204411167-Tips-On-Recognizing-a-Teammate).
 
 
 #### Some mobile best practices
