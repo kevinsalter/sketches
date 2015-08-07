@@ -65,7 +65,7 @@ Here are a few considerations when designing a mobile experience:
 - design patterns: [cards](https://blog.intercom.io/why-cards-are-the-future-of-the-web/) vs [grids](http://blog.uxpin.com/6774/5-creative-mobile-ui-patterns-navigation/) vs [lists](http://www.nngroup.com/articles/image-vs-list-mobile-navigation/)
 - how much of the app can i navigate using only one hand?
 
-#### What are some of the screens we'll need?
+#### Notes on some of the screens we'll need
 
 1. login
 2. navigation
