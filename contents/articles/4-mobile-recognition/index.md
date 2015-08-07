@@ -44,7 +44,7 @@ Finally, there's the argument that "I'm not a millennial, I don't need to be rec
 
 #### Is mobile the right format?
 
-Since our Q3 meeting, I've been interested in the idea of each module of 7Geese being its own mobile app.  It makes sense, since we have some customers who only use 7Geese for recognition, and I've read feedback from another customer who wants to use 7Geese only for doing his 1-on-1s.  We've also got an "OKR only" tier, so it makes sense that we'd have an OKR only app.
+Since our Q3 meeting, I've been interested in the idea of each module of 7Geese being its own mobile app.  It makes sense, since we have some customers who only use 7Geese for recognition, and I've read feedback from another customer who wants to use 7Geese only for doing his 1-on-1s.  We've also got an "OKR only" tier, so it makes sense that we'd have an OKR only mobile app.
 
 So let's think for a minute about why mobile would be a good format for an individual module like recognition.
 
