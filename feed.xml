@@ -78,7 +78,7 @@ Seriously though, it’s obvious that showing appreciation and receiving kudos f
 &lt;li&gt;choose user(s)&lt;/li&gt;
 &lt;li&gt;write description&lt;/li&gt;
 &lt;li&gt;choose badge&lt;/li&gt;
-&lt;li&gt;checkbox: notify recipient’s manager? department(s)?&lt;/li&gt;
+&lt;li&gt;checkbox toggles: notify recipient’s manager? department(s)?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;list (feed) of recognition given out&lt;ul&gt;
@@ -88,9 +88,10 @@ Seriously though, it’s obvious that showing appreciation and receiving kudos f
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;individual recognition pages&lt;ul&gt;
+&lt;li&gt;I imagine it would be really similar to the card-style layout we use for this already&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;with comments&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;ability to “like”&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;social sharing&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;social sharing (maybe admins can turn this off in settings)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;social sharing button’s overlay/dialog (full screen)&lt;/li&gt;
@@ -112,20 +113,24 @@ Seriously though, it’s obvious that showing appreciation and receiving kudos f
 &lt;/ol&gt;
 &lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
-    note: each rectangle in the wireframes below is the size of an iPhone 6 screen
-&lt;/span&gt;
-&lt;br&gt;
+&lt;p&gt;&lt;div id=&quot;footnote-1&quot; class=&quot;footnote&quot;&gt;
+    &lt;em&gt;note:&lt;/em&gt; each rectangle in the wireframes below is the size of an iPhone 6 screen
+&lt;/div&gt;
 &lt;span class=&quot;annotation&quot;&gt;
-    2 possible UIs for choosing a coworker to recognize
+    mobile interface for giving recognition
+&lt;/span&gt;
+&lt;img src=&quot;/articles/4-mobile-recognition/give-recognition.jpg&quot; alt=&quot;Giving Recognition&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;
+&lt;span class=&quot;annotation&quot;&gt;
+    giving a recognition, looking at a recognition, navigation, and social sharing
+&lt;/span&gt;
+&lt;img src=&quot;/articles/4-mobile-recognition/recognition-and-nav.jpg&quot; alt=&quot;Recognition and Nav ideas&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;
+&lt;span class=&quot;annotation&quot;&gt;
+    3 possible UIs for choosing a coworker to recognize
 &lt;/span&gt;
 &lt;img src=&quot;/articles/4-mobile-recognition/choose-a-colleague.jpg&quot; alt=&quot;Choose a colleague ideas&quot;&gt;
 &lt;img src=&quot;/articles/4-mobile-recognition/choose-a-colleague2.jpg&quot; alt=&quot;Choose a colleague ideas 2&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;hr&gt;
-&lt;span class=&quot;annotation&quot;&gt;
-    giving a recognition, looking at a recognition, navigation
-&lt;/span&gt;
-&lt;img src=&quot;sketches.kevinsalter.me/articles/4-mobile-recognition/recognition-and-nav.jpg&quot; alt=&quot;Recognition and Nav ideas&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>

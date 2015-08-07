@@ -78,15 +78,16 @@ Here are a few considerations when designing a mobile experience:
     - choose user(s)
     - write description
     - choose badge
-    - checkbox: notify recipient's manager? department(s)?
+    - checkbox toggles: notify recipient's manager? department(s)?
 5. list (feed) of recognition given out
     - _ability to filter by person / team / badge_
     - each list item links to individual recognition
     - ability to "like" or share without having to go to individual recognition (swipe left on iOS)
 6. individual recognition pages
+    - I imagine it would be really similar to the card-style layout we use for this already
     - _with comments_
     - _ability to "like"_
-    - _social sharing_
+    - _social sharing (maybe admins can turn this off in settings)_
 7. social sharing button's overlay/dialog (full screen)
 8. list of available badges with descriptions
     - choosing a badge shows the description of that badge (full screen)
@@ -100,17 +101,21 @@ Here are a few considerations when designing a mobile experience:
 
 <p class="article-end"></p>
 
+<div id="footnote-1" class="footnote">
+    _note:_ each rectangle in the wireframes below is the size of an iPhone 6 screen
+</div>
 <span class="annotation">
-    note: each rectangle in the wireframes below is the size of an iPhone 6 screen
+    mobile interface for giving recognition
 </span>
-<br>
+![Giving Recognition](give-recognition.jpg)
+<hr>
 <span class="annotation">
-    2 possible UIs for choosing a coworker to recognize
+    giving a recognition, looking at a recognition, navigation, and social sharing
+</span>
+![Recognition and Nav ideas](recognition-and-nav.jpg)
+<hr>
+<span class="annotation">
+    3 possible UIs for choosing a coworker to recognize
 </span>
 ![Choose a colleague ideas](choose-a-colleague.jpg)
 ![Choose a colleague ideas 2](choose-a-colleague2.jpg)
-<hr>
-<span class="annotation">
-    giving a recognition, looking at a recognition, navigation
-</span>
-![Recognition and Nav ideas](recognition-and-nav.jpg)
