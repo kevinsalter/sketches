@@ -5,9 +5,117 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Thu, 06  Aug 2015 17:00:00 -0700</pubDate>
+    <pubDate>Thu, 13  Aug 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>the best ui is no ui</title>
+      <link>sketches.kevinsalter.me/articles/5-no-ui/</link>
+      <pubDate>Thu, 13  Aug 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/5-no-ui/</guid>
+      <author></author>
+      <description>&lt;p&gt;A user interface (UI) is the means by which humans interact with machines in a way that makes it easy, efficient, and enjoyable to operate those machines in a way that produces the desired results.
+&lt;br&gt;&lt;br&gt;
+But how often do UIs completely under-deliver on that promise?&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;pop-uis&quot;&gt;Pop UIs&lt;/h4&gt;
+&lt;p&gt;Obviously, I &amp;lt;3 UIs.  At the same time, I think this quarter-century-old quote is as relevant as ever:&lt;/p&gt;
+&lt;blockquote&gt;
+    “The real problem with the interface is that it is an interface. Interfaces get in the way. I don’t want to focus my energies on an interface. I want to focus on the job…I don’t want to think of myself as using a computer, I want to think of myself as doing my job.” – &lt;a href=&quot;http://cs.nyu.edu/courses/spring98/G22.2280/UI-Introduction/sld072.htm&quot;&gt;Donald Norman (circa 1990)&lt;/a&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It’s funny to think that 12 years later, &lt;strong&gt;Minority Report (2002)&lt;/strong&gt; would come out and designers would immediately start spending &lt;a href=&quot;http://www.theawl.com/2013/02/how-minority-report-trapped-us-in-a-world-of-bad-interfaces&quot;&gt;a lot of time trying to repackage Steven Spielberg’s vision of the future&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It’s interesting to contrast that with the “slight future” world of &lt;strong&gt;Her (2013)&lt;/strong&gt; released about a decade later, where UI is actually hard to find.  People talk to their computers (no fiddling with keyboards or touch screens). Theo’s smart house turns its lights on/off as he moves between rooms, with no interface.&lt;/p&gt;
+&lt;p&gt;Another interesting design decision in &lt;strong&gt;Her&lt;/strong&gt;, which makes for a great counterpoint to &lt;strong&gt;Minority Report&lt;/strong&gt;, is that &lt;a href=&quot;http://www.wired.com/brandlab/2014/01/will-influential-ui-design-minority-report/&quot;&gt;instead of overlaying our vision with a feed, as we’ve typically seen it, Theo gets a one piped into his ear&lt;/a&gt;.  I’ve been finding more, and more that the convention of “the feed” is being thought of as an anti-pattern, and according to some arguments, &lt;a href=&quot;https://medium.com/matter/the-web-we-have-to-save-2eb1fe15a426&quot;&gt;antithetical to the true spirit of the internet&lt;/a&gt;.  Although, this is slightly ironic, considering a main concept of “the feed” is to deliver curated information to the end user.&lt;/p&gt;
+&lt;h4 id=&quot;the-best-interface-is-no-interface&quot;&gt;The best interface is no interface&lt;/h4&gt;
+&lt;p&gt;Lately, I’ve been thinking more about the 3 principles laid out by Golden Krishna, who is one of the larger proponents and champions of &lt;a href=&quot;http://www.cooper.com/journal/2012/08/the-best-interface-is-no-interface&quot;&gt;the best interface is no interface&lt;/a&gt; (in fact, he may have coined the phrase, I dunno).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; I say specifically that I like the &lt;em&gt;principles&lt;/em&gt; because the name of the theory is an obvious false dichotomy, and that’s how flame wars that go nowhere get started. 🔥&lt;/p&gt;
+&lt;p&gt;At a high level, I interpret the principles to be asking, “What is the &lt;em&gt;minimum&lt;/em&gt; interface that a user needs?”.&lt;/p&gt;
+&lt;p&gt;&lt;blockquote&gt;
+    “Good design is invisible. Minimum input, maximum output, with minimal conscious thought.” — &lt;a href=&quot;http://www.theverge.com/2012/7/24/3177332/ia-oliver-reichenstein-writer-interview-good-design-is-invisible&quot;&gt;Oliver Reichenstein&lt;/a&gt;
+&lt;/blockquote&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&quot;principle-1-embrace-natural-processes&quot;&gt;Principle 1: Embrace natural processes&lt;/h4&gt;
+&lt;p&gt;According to this principle, you as a designer analyze the situation first and identify the processes that already exist around the problem you’re trying to solve.  This is in contrast to saying, hey, I have all this great technology, now where can I apply it?&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://techcrunch.com/gallery/what-its-like-to-use-amazons-new-dash-buttons/?ncid=rss&quot;&gt;Amazon Dash&lt;/a&gt; buttons are a really interesting example of offering a screenless solution to interact with their service.  It’s funny that the idea was so outrageous that people thought it had to be an April Fool’s joke.  But for realz, my washer/dryer doesn’t need a screen and its own wifi connection where I need to log into my Amazon account and order more detergent.&lt;/p&gt;
+&lt;p&gt;The example Krishna uses of how &lt;a href=&quot;http://www.theverge.com/2015/3/17/8103593/golden-krishna-best-interface-is-no-interface-excerpt&quot;&gt;the BMW app&lt;/a&gt; gets it wrong is a great example of the flaws with having a technology-first approach.&lt;/p&gt;
+&lt;p&gt;He then outlines how he would apply the observational methods from his &lt;strong&gt;Cat Poet&lt;/strong&gt; acronym to begin designing a screenless solution.&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;
+&lt;span style=&quot;float:right;width:188px;&quot;&gt;&lt;img src=&quot;/articles/5-no-ui/catpoet.jpg&quot; alt=&quot;cat poet&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;C. What is the typical &lt;strong&gt;context&lt;/strong&gt; for the activity?&lt;/p&gt;
+&lt;p&gt;A. Who are the primary &lt;strong&gt;actors&lt;/strong&gt;?&lt;/p&gt;
+&lt;p&gt;T. What’s the primary &lt;strong&gt;task&lt;/strong&gt; or goal?&lt;/p&gt;
+&lt;p&gt;P. What’s the typical &lt;strong&gt;process&lt;/strong&gt; you’d like to simplify?&lt;/p&gt;
+&lt;p&gt;O. What &lt;strong&gt;objects&lt;/strong&gt; typically exist in the environment?&lt;/p&gt;
+&lt;p&gt;E. Does anything need to be &lt;strong&gt;explained&lt;/strong&gt; or communicated to the person(s) involved?&lt;/p&gt;
+&lt;p&gt;T. What &lt;strong&gt;triggers&lt;/strong&gt; might indicate that the person wants to commit to that action?&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;So, how would this look when applied to a problem we’re trying to solve at 7Geese?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Problem:&lt;/strong&gt; Help users &lt;strong&gt;assess and check into their OKRs in 7Geese&lt;/strong&gt; by aggregating information from 3rd party project planning applications.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Context&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;At the office or at home, on laptop/desktop computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Actors&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;employees, managers (could be further specified with personas)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Task&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;checking into objectives (which also includes updating KRs and assessment updates)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Process&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;log into 7Geese and navigate to the objective that needs updated&lt;/li&gt;
+&lt;li&gt;gather information on how much progress has been made on an objective&lt;/li&gt;
+&lt;li&gt;enter a description/summary of what has happened&lt;/li&gt;
+&lt;li&gt;enter the specific numbers/details related to each KR&lt;/li&gt;
+&lt;li&gt;Assess OKR as “On/Off Track” and enter a status for the update (Max mentioned that there’s an opportunity for combining this with step #2)&lt;/li&gt;
+&lt;li&gt;Save the check in so that it appears in 7Geese and notifies colleagues&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Objects&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;computer, desk, wifi, bluetooth, other software and devices&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Explained&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the user needs to see the new state of their KRs (expressed as a ratio, percentage, dollar amount, or binary complete/incomplete)&lt;/li&gt;
+&lt;li&gt;the user also needs to be shown their new overall progress percentage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Triggers&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the user has completed meaningful work in a 3rd party application such as Asana, Jira, or GitHub&lt;/li&gt;
+&lt;li&gt;the owners/stakeholders of the objective are having a meeting&lt;/li&gt;
+&lt;li&gt;the objective has been completed&lt;/li&gt;
+&lt;li&gt;the quarter is ending&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The context could likely be fleshed out even more, but I think that this kind of approach is one nice way to solve a problem by starting with people and working back to technology.&lt;/p&gt;
+&lt;h4 id=&quot;principle-2-leverage-computers-instead-of-catering-to-them&quot;&gt;Principle 2: Leverage computers instead of catering to them&lt;/h4&gt;
+&lt;p&gt;This is just a slightly fancier way of asking, “Who’s in charge here?!”&lt;/p&gt;
+&lt;p&gt;Screens are needy.  You’re stuck using them; it’s a chore.  You have to swipe, click, tap your way to what you need. Sometimes it’s necessary to interact with a screen, but other times you have to wonder…&lt;/p&gt;
+&lt;p&gt;I usually have my cell phone on ringer at home, and on vibrate when I’m out in the world– why doesn’t my phone notice and ask me about it if I’ve forgotten to turn on vibrate after leaving the house?&lt;/p&gt;
+&lt;p&gt;When the title of one of my Calendar events contains the word “Meeting” and my status is “Show as Busy”, why doesn’t OS X turn on “Do Not Disturb” for me (or at least ask me)?&lt;/p&gt;
+&lt;p&gt;Speaking of calendars, this seems similar to what we’re doing with 1-on-1 scheduling; just trying to make logical connections for users to reduce their cognitive overhead.  But we’re really just scratching the surface.  OKR due dates could appear as calendar events, or cycle beginnings and endings (quarterly? triannually? etc.) could appear in calendars as well.&lt;/p&gt;
+&lt;p style=&quot;font-size:14px;&quot;&gt;&lt;em&gt;Footnote:&lt;/em&gt; I’d say &lt;a href=&quot;https://en.wikipedia.org/wiki/Machine_learning&quot;&gt;machine learning&lt;/a&gt; falls under this principle as well, but that’s a much bigger, much more complicated, much more expensive topic unto itself (which I know, like, nothing about).  &lt;a href=&quot;http://nerds.airbnb.com/aerosolve/&quot;&gt;AirBnB’s engineering team&lt;/a&gt; posts some really cool stuff on the topic if you’re interested, though.&lt;/p&gt;
+
+&lt;h4 id=&quot;principle-3-adapt-to-people&quot;&gt;Principle 3: Adapt to people&lt;/h4&gt;
+&lt;p&gt;I find this principle especially interesting.  Krishna uses the example of thinking back to when you first signed up for Gmail– it was awesome, everything was new, powerful, innovative…but where can it go from there?  The only way to keep giving gains to the end user is to either build more features, or execute an expensive, time-consuming re-design every few quarters to keep things fresh.&lt;/p&gt;
+&lt;p&gt;Reversing this curve reveals a more human-centric outcome.  For example, Nest.  There’s a shiny, conspicuous UI on Nest, for sure, but that’s just the front door of the product.  Over time it can learn your behaviour and, in the case of Nest thermometers, can adjust themselves automatically based on your patterns. This creates more value the more you use the product by saving you time and money while keeping things at a comfortable temperature.  So, the UI becomes less necessary as time goes on.&lt;/p&gt;
+&lt;p&gt;At 7Geese we’re starting to re-imagine how our notifications and information architecture operate.  How should our application talk to users?!&lt;/p&gt;
+&lt;p&gt;Using this principle as a guideline, I could imagine a time where 7Geese notices how a user likes to set their OKRs (i.e. maybe 3 OKRs every quarter), and prompts the user to engage with an &lt;a href=&quot;/articles/3-okr-builder-concept&quot;&gt;OKR builder&lt;/a&gt; a week before the current quarter ends, and save their OKRs as drafts that would then begin the following week.&lt;/p&gt;
+&lt;p&gt;Building off of that idea, I could also imagine 7Geese noticing the frequency that a user checks into each individual OKR, and again prompt the user to visit that OKR’s page and take action.&lt;/p&gt;
+&lt;p&gt;I realize these last scenarios I’ve described rely on screens, but they speak directly to what I feel is a sister-principle at play here– reduce the cognitive load of the user so that I think of myself as “doing my job” and not “using a computer”.&lt;/p&gt;
+&lt;p style=&quot;text-align:center;&quot;&gt;&lt;em&gt;The future is simpler than you think.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    below are the most elegant sketches of no ui you will never see
+&lt;/span&gt;
+&lt;img src=&quot;/articles/5-no-ui/no-ui.jpg&quot; alt=&quot;No UI&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>starting to imagine mobile recognition</title>
       <link>sketches.kevinsalter.me/articles/4-mobile-recognition/</link>
