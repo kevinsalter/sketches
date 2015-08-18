@@ -21,7 +21,7 @@ At first this caught me by surprise (not the product differentiation, the though
 &lt;h4 id=&quot;the-thought-process&quot;&gt;The thought process&lt;/h4&gt;
 &lt;p&gt;Essentially, I have two thoughts that I’m combining into this design of the homepage feed:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;If you scroll through your feed, you’ll notice that we mainly use the “Post” functionality to enter &lt;strong&gt;Weekly Priorities&lt;/strong&gt; and &lt;strong&gt;Reflection&lt;/strong&gt; &lt;em&gt;(…I’m going to explore the idea of Reflection as its own module in next week’s post…)&lt;/em&gt;.  So, I’m imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.&lt;/li&gt;
+&lt;li&gt;If you scroll through your feed, you’ll notice that (other than posting some meeting notes) we mainly use the “Post” functionality to enter &lt;strong&gt;Weekly Priorities&lt;/strong&gt; and &lt;strong&gt;Reflection&lt;/strong&gt; &lt;em&gt;(…I’m going to explore the idea of Reflection as its own module in next week’s post…)&lt;/em&gt;.  So, I’m imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.&lt;/li&gt;
 &lt;li&gt;If feed items followed some sort of visual hierarchy, you’d be able to extract the information you need from them more quickly and easily &lt;em&gt;i.e.&lt;/em&gt; less actionable updates would appear smaller, while more actionable or significant items would appear larger.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;visual-hierarchy&quot;&gt;Visual hierarchy&lt;/h4&gt;

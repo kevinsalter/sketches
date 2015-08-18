@@ -14,7 +14,7 @@ At first this caught me by surprise (not the product differentiation, the though
 #### The thought process
 
 Essentially, I have two thoughts that I'm combining into this design of the homepage feed:
-1. If you scroll through your feed, you'll notice that we mainly use the "Post" functionality to enter **Weekly Priorities** and **Reflection** _(...I'm going to explore the idea of Reflection as its own module in next week's post...)_.  So, I'm imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.
+1. If you scroll through your feed, you'll notice that (other than posting some meeting notes) we mainly use the "Post" functionality to enter **Weekly Priorities** and **Reflection** _(...I'm going to explore the idea of Reflection as its own module in next week's post...)_.  So, I'm imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.
 2. If feed items followed some sort of visual hierarchy, you'd be able to extract the information you need from them more quickly and easily _i.e._ less actionable updates would appear smaller, while more actionable or significant items would appear larger.
 
 #### Visual hierarchy
