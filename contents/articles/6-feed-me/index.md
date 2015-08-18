@@ -14,7 +14,7 @@ At first this caught me by surprise (not the product differentiation, the though
 #### The thought process
 
 Essentially, I have two thoughts that I'm combining into this design of the homepage feed:
-1. If you scroll through your feed, you'll notice that we really only use the "Post" functionality to enter **Weekly Priorities** and **Reflection** _(...I'm going to explore the idea of Reflection as its own module in next week's post...)_.  So, I'm imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.
+1. If you scroll through your feed, you'll notice that we mainly use the "Post" functionality to enter **Weekly Priorities** and **Reflection** _(...I'm going to explore the idea of Reflection as its own module in next week's post...)_.  So, I'm imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.
 2. If feed items followed some sort of visual hierarchy, you'd be able to extract the information you need from them more quickly and easily _i.e._ less actionable updates would appear smaller, while more actionable or significant items would appear larger.
 
 #### Visual hierarchy
@@ -58,6 +58,8 @@ Some functionality considerations that I'm not really going to explore in this p
 #### Item Types
 
 It would be helpful and visually interesting to use an icon (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I'm going to imagine that we also have a Weekly Priorities module and Reflection module – so that's **5 Item Types** in total.
+
+The crux of this design is that I'm proposing we eliminate the tabbed area (recognition/post) above the homepage feed, and the only messages that populate the homepage feed would come from 7Geese modules.  That being the case, users would still be able to comment on items in the feed as they currently do, and would still be able to "Post" on the objective page feed.
 
 <p class="article-end"></p>
 

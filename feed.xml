@@ -21,7 +21,7 @@ At first this caught me by surprise (not the product differentiation, the though
 &lt;h4 id=&quot;the-thought-process&quot;&gt;The thought process&lt;/h4&gt;
 &lt;p&gt;Essentially, I have two thoughts that I’m combining into this design of the homepage feed:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;If you scroll through your feed, you’ll notice that we really only use the “Post” functionality to enter &lt;strong&gt;Weekly Priorities&lt;/strong&gt; and &lt;strong&gt;Reflection&lt;/strong&gt; &lt;em&gt;(…I’m going to explore the idea of Reflection as its own module in next week’s post…)&lt;/em&gt;.  So, I’m imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.&lt;/li&gt;
+&lt;li&gt;If you scroll through your feed, you’ll notice that we mainly use the “Post” functionality to enter &lt;strong&gt;Weekly Priorities&lt;/strong&gt; and &lt;strong&gt;Reflection&lt;/strong&gt; &lt;em&gt;(…I’m going to explore the idea of Reflection as its own module in next week’s post…)&lt;/em&gt;.  So, I’m imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.&lt;/li&gt;
 &lt;li&gt;If feed items followed some sort of visual hierarchy, you’d be able to extract the information you need from them more quickly and easily &lt;em&gt;i.e.&lt;/em&gt; less actionable updates would appear smaller, while more actionable or significant items would appear larger.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4 id=&quot;visual-hierarchy&quot;&gt;Visual hierarchy&lt;/h4&gt;
@@ -76,6 +76,7 @@ At first this caught me by surprise (not the product differentiation, the though
 &lt;/ul&gt;
 &lt;h4 id=&quot;item-types&quot;&gt;Item Types&lt;/h4&gt;
 &lt;p&gt;It would be helpful and visually interesting to use an icon (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I’m going to imagine that we also have a Weekly Priorities module and Reflection module – so that’s &lt;strong&gt;5 Item Types&lt;/strong&gt; in total.&lt;/p&gt;
+&lt;p&gt;The crux of this design is that I’m proposing we eliminate the tabbed area (recognition/post) above the homepage feed, and the only messages that populate the homepage feed would come from 7Geese modules.  That being the case, users would still be able to comment on items in the feed as they currently do, and would still be able to “Post” on the objective page feed.&lt;/p&gt;
 &lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
