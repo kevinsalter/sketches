@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>feed me - sketches
+    </title>
+    <link rel="alternate" href="sketches.kevinsalter.me/feed.xml" type="application/rss+xml" title="✍">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>feed me</h1>
+        <p class="author">
+          <p style="max-width:350px;margin:0 auto 1em;text-transform:none;" class="author"><span>thought experiments and ui/ux wireframing for personal reflection and feedback from the 7Geese flock</span></p>
+          <p style="margin-bottom:0.45em;" class="author"><span class="coffee-cup"></span><span class="author"><a href="mailto:kevins@7geese.com">Kevin Salter</a></span>
+          </p>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p>Last week, there was a thread on 7Geese where Amin revealed that there had been a time where the “Post” functionality for the Feed on the homepage was <em>almost</em> removed completely because 7Geese’s focus is not to be a communication portal like Yammer or Slack.
+<br><br>
+At first this caught me by surprise (not the product differentiation, the thought of removing the ability to “Post”), but I thought about it for a while and started to envision how that change might&nbsp;look.</p>
+<p><span class="more"></span></p>
+<h4 id="the-thought-process">The thought&nbsp;process</h4>
+<p>Essentially, I have two thoughts that I’m combining into this design of the homepage&nbsp;feed:</p>
+<ol>
+<li>If you scroll through your feed, you’ll notice that we really only use the “Post” functionality to enter <strong>Weekly Priorities</strong> and <strong>Reflection</strong> <em>(…I’m going to explore the idea of Reflection as its own module in next week’s post…)</em>.  So, I’m imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own&nbsp;modules.</li>
+<li>If feed items followed some sort of visual hierarchy, you’d be able to extract the information you need from them more quickly and easily <em>i.e.</em> less actionable updates would appear smaller, while more actionable or significant items would appear&nbsp;larger.</li>
+</ol>
+<h4 id="visual-hierarchy">Visual&nbsp;hierarchy</h4>
+<p>To decide on a visual hierarchy, I’ll want to lay out some basic criteria.  Feed items in this new design can be one of three possible sizes: small, medium, or&nbsp;large.</p>
+<p><strong>Small</strong> feed items would be infrequent actions, or non-actionable pieces of information.  For example, network updates such as “<u>@John Smith</u> has joined 7Geese”, or “<u>@Sally Jones</u> created a new department: Sales”, would likely appear as small, one-line updates.  We could still include the user’s avatar, and hyper-link their name, but that message would be visually deemphasized in the feed.  Also, this includes items that a user is not able to comment&nbsp;on.</p>
+<p><strong>Medium</strong> feed items could be thought of as semi-frequent actions that represent some kind of progress.  This kind of action could be checking into, assessing, or closing an objective.  Users would still be able to comment on these items from the&nbsp;feed.</p>
+<p>I think Recognition is our only <strong>Large</strong> feed item at this time, but I wonder what other kinds of messages might warrant this level of emphasis in the feed – closing objectives comes to&nbsp;mind.</p>
+<p>Basically, I’m envisioning something similar to GitHub’s version of the feed, which I think is the best representation of this kind of information I’ve seen on the web.  If you know of an example that you think is amazingly designed, please <a href="/articles/6-feed-me/#disqus_thread">leave me a note in the comments below</a>!</p>
+<h4 id="a-quick-note-on-functionality">A quick note on&nbsp;functionality</h4>
+<p>Some functionality considerations that I’m not really going to explore in this post&nbsp;include:</p>
+<ul>
+<li>What kind of filtering do we want to keep/add/eliminate?<ul>
+<li>currently we can filter by People:<ul>
+<li>My&nbsp;Departments</li>
+<li>My Direct&nbsp;Team</li>
+<li>All&nbsp;Company</li>
+</ul>
+</li>
+<li>and by Item Type:<ul>
+<li>Posts</li>
+<li>Objectives<ul>
+<li>when someone checks&nbsp;in</li>
+<li>when an objective’s status is updated, changed, or&nbsp;cleared</li>
+<li>when a post is made on an&nbsp;objective</li>
+</ul>
+</li>
+<li>Recognition<ul>
+<li>when recognition is&nbsp;given/received</li>
+</ul>
+</li>
+<li>Network Updates<ul>
+<li>@name has joined&nbsp;7Geese!</li>
+<li>@name created a new department:&nbsp;Sales</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>What kind of actions can a user take, and when?<ul>
+<li>here I’m referring to the ability to “Like”, “Delete”, “Comment”, or “Edit” feed&nbsp;content</li>
+</ul>
+</li>
+<li>Should we support Markdown?<ul>
+<li>of course I vote yes, but it’s not a small integration since it would ideally require the ability to edit posts, a markdown preview-mode, user education,&nbsp;etc.</li>
+</ul>
+</li>
+<li>Should we support uploading images in-line?<ul>
+<li>see sub-note&nbsp;above…</li>
+</ul>
+</li>
+</ul>
+<h4 id="item-types">Item&nbsp;Types</h4>
+<p>It would be helpful and visually interesting to use an icon (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I’m going to imagine that we also have a Weekly Priorities module and Reflection module – so that’s <strong>5 Item Types</strong> in&nbsp;total.</p>
+<p class="article-end"></p>
+
+<p><span class="annotation">
+    a higher fidelity view of a feed re-design
+</span>
+<img src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=wait%20for%20it...&amp;w=800&amp;h=500" alt="a new feed"></p>
+<p><span class="annotation">
+    a lower fidelity view of the feed on the homepage
+</span>
+<img src="https://placeholdit.imgix.net/~text?txtsize=33&amp;txt=wait%20for%20it...&amp;w=800&amp;h=500" alt="a new feed on the homepage"></p>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <h3>Got something to say?</h3>
+        <div id="disqus_thread"></div><script type="text/javascript">
+            var disqus_shortname = 'sketches-kevinsalter';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        <section class="copy">
+          <p>&copy; 2015 kevinsalter &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      ga('create', 'UA-66379942-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

@@ -5,9 +5,89 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Thu, 13  Aug 2015 17:00:00 -0700</pubDate>
+    <pubDate>Thu, 20  Aug 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>feed me</title>
+      <link>sketches.kevinsalter.me/articles/6-feed-me/</link>
+      <pubDate>Thu, 20  Aug 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/6-feed-me/</guid>
+      <author></author>
+      <description>&lt;p&gt;Last week, there was a thread on 7Geese where Amin revealed that there had been a time where the “Post” functionality for the Feed on the homepage was &lt;em&gt;almost&lt;/em&gt; removed completely because 7Geese’s focus is not to be a communication portal like Yammer or Slack.
+&lt;br&gt;&lt;br&gt;
+At first this caught me by surprise (not the product differentiation, the thought of removing the ability to “Post”), but I thought about it for a while and started to envision how that change might look.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;the-thought-process&quot;&gt;The thought process&lt;/h4&gt;
+&lt;p&gt;Essentially, I have two thoughts that I’m combining into this design of the homepage feed:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you scroll through your feed, you’ll notice that we really only use the “Post” functionality to enter &lt;strong&gt;Weekly Priorities&lt;/strong&gt; and &lt;strong&gt;Reflection&lt;/strong&gt; &lt;em&gt;(…I’m going to explore the idea of Reflection as its own module in next week’s post…)&lt;/em&gt;.  So, I’m imagining that those are modules in 7Geese, similar to how Objectives, Recognitions, Feedback, and 1-on-1s are their own modules.&lt;/li&gt;
+&lt;li&gt;If feed items followed some sort of visual hierarchy, you’d be able to extract the information you need from them more quickly and easily &lt;em&gt;i.e.&lt;/em&gt; less actionable updates would appear smaller, while more actionable or significant items would appear larger.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;visual-hierarchy&quot;&gt;Visual hierarchy&lt;/h4&gt;
+&lt;p&gt;To decide on a visual hierarchy, I’ll want to lay out some basic criteria.  Feed items in this new design can be one of three possible sizes: small, medium, or large.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Small&lt;/strong&gt; feed items would be infrequent actions, or non-actionable pieces of information.  For example, network updates such as “&lt;u&gt;@John Smith&lt;/u&gt; has joined 7Geese”, or “&lt;u&gt;@Sally Jones&lt;/u&gt; created a new department: Sales”, would likely appear as small, one-line updates.  We could still include the user’s avatar, and hyper-link their name, but that message would be visually deemphasized in the feed.  Also, this includes items that a user is not able to comment on.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Medium&lt;/strong&gt; feed items could be thought of as semi-frequent actions that represent some kind of progress.  This kind of action could be checking into, assessing, or closing an objective.  Users would still be able to comment on these items from the feed.&lt;/p&gt;
+&lt;p&gt;I think Recognition is our only &lt;strong&gt;Large&lt;/strong&gt; feed item at this time, but I wonder what other kinds of messages might warrant this level of emphasis in the feed – closing objectives comes to mind.&lt;/p&gt;
+&lt;p&gt;Basically, I’m envisioning something similar to GitHub’s version of the feed, which I think is the best representation of this kind of information I’ve seen on the web.  If you know of an example that you think is amazingly designed, please &lt;a href=&quot;sketches.kevinsalter.me/articles/6-feed-me/#disqus_thread&quot;&gt;leave me a note in the comments below&lt;/a&gt;!&lt;/p&gt;
+&lt;h4 id=&quot;a-quick-note-on-functionality&quot;&gt;A quick note on functionality&lt;/h4&gt;
+&lt;p&gt;Some functionality considerations that I’m not really going to explore in this post include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What kind of filtering do we want to keep/add/eliminate?&lt;ul&gt;
+&lt;li&gt;currently we can filter by People:&lt;ul&gt;
+&lt;li&gt;My Departments&lt;/li&gt;
+&lt;li&gt;My Direct Team&lt;/li&gt;
+&lt;li&gt;All Company&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;and by Item Type:&lt;ul&gt;
+&lt;li&gt;Posts&lt;/li&gt;
+&lt;li&gt;Objectives&lt;ul&gt;
+&lt;li&gt;when someone checks in&lt;/li&gt;
+&lt;li&gt;when an objective’s status is updated, changed, or cleared&lt;/li&gt;
+&lt;li&gt;when a post is made on an objective&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Recognition&lt;ul&gt;
+&lt;li&gt;when recognition is given/received&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Network Updates&lt;ul&gt;
+&lt;li&gt;@name has joined 7Geese!&lt;/li&gt;
+&lt;li&gt;@name created a new department: Sales&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;What kind of actions can a user take, and when?&lt;ul&gt;
+&lt;li&gt;here I’m referring to the ability to “Like”, “Delete”, “Comment”, or “Edit” feed content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Should we support Markdown?&lt;ul&gt;
+&lt;li&gt;of course I vote yes, but it’s not a small integration since it would ideally require the ability to edit posts, a markdown preview-mode, user education, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Should we support uploading images in-line?&lt;ul&gt;
+&lt;li&gt;see sub-note above…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;item-types&quot;&gt;Item Types&lt;/h4&gt;
+&lt;p&gt;It would be helpful and visually interesting to use an icon (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I’m going to imagine that we also have a Weekly Priorities module and Reflection module – so that’s &lt;strong&gt;5 Item Types&lt;/strong&gt; in total.&lt;/p&gt;
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    a higher fidelity view of a feed re-design
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;a new feed&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    a lower fidelity view of the feed on the homepage
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;a new feed on the homepage&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>the best ui is no ui</title>
       <link>sketches.kevinsalter.me/articles/5-no-ui/</link>
