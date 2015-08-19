@@ -1,7 +1,7 @@
 ---
 title: "feed me"
 author: kevinsalter
-date: 2015-08-21
+date: 2015-08-18
 template: article.jade
 ---
 
