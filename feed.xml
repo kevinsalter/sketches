@@ -75,19 +75,34 @@ At first this caught me by surprise (not the product differentiation, the though
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&quot;item-types&quot;&gt;Item Types&lt;/h4&gt;
-&lt;p&gt;It would be helpful and visually interesting to use an icon or symbol (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I’m going to imagine that we also have a Weekly Priorities module and Reflection module – so that’s &lt;strong&gt;5 Item Types&lt;/strong&gt; in total.&lt;/p&gt;
+&lt;p&gt;It would be helpful and visually interesting to use an icon or symbol (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I’m going to imagine that we also have a Weekly Priorities module and Reflection module – so that’s &lt;strong&gt;5 Item Types&lt;/strong&gt; in total:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Objectives&lt;/li&gt;
+&lt;li&gt;Recognition&lt;/li&gt;
+&lt;li&gt;Weekly Priorities&lt;/li&gt;
+&lt;li&gt;Reflection&lt;/li&gt;
+&lt;li&gt;Network Updates&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;The crux of this design is that I’m proposing we eliminate the tabbed area (recognition/post) above the homepage feed, and the only messages that populate the homepage feed would come from 7Geese modules.  That being the case, users would still be able to comment on items in the feed as they currently do, and would still be able to “Post” on the objective page feed.&lt;/p&gt;
 &lt;p&gt;Have I missed anything important here?  Any holes in my pattern of thinking? &lt;a href=&quot;sketches.kevinsalter.me/articles/6-feed-me/#disqus_thread&quot;&gt;Leave a comment&lt;/a&gt;!&lt;/p&gt;
 &lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
-    a higher fidelity view of a feed re-design
+    Idea #1 - a feed re-design with an emphasis on people (like the current feed)
 &lt;/span&gt;
-&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;a new feed&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/articles/6-feed-me/feed1.jpg&quot; alt=&quot;a new feed #1&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
-    a lower fidelity view of the feed on the homepage
+    Idea #2 – emphasis on tasks
 &lt;/span&gt;
-&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;a new feed on the homepage&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/articles/6-feed-me/feed2.jpg&quot; alt=&quot;a new feed #2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    icon brainstorming
+&lt;/span&gt;
+&lt;img src=&quot;/articles/6-feed-me/icon-brainstorming.jpg&quot; alt=&quot;icon brainstorming&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    a lower fidelity view of how the new feed might fit into a different homepage layout
+&lt;/span&gt;
+&lt;img src=&quot;/articles/6-feed-me/homepage-layout.jpg&quot; alt=&quot;a new feed on the homepage&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>

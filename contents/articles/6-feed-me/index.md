@@ -57,7 +57,12 @@ Some functionality considerations that I'm not really going to explore in this p
 
 #### Item Types
 
-It would be helpful and visually interesting to use an icon or symbol (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I'm going to imagine that we also have a Weekly Priorities module and Reflection module – so that's **5 Item Types** in total.
+It would be helpful and visually interesting to use an icon or symbol (more prominently than we do now) to represent the different item types that can possibly appear in the homepage feed.  Currently we have the 3 types listed above (when eliminating Posts), but just for fun I'm going to imagine that we also have a Weekly Priorities module and Reflection module – so that's **5 Item Types** in total:
+- Objectives
+- Recognition
+- Weekly Priorities
+- Reflection
+- Network Updates
 
 The crux of this design is that I'm proposing we eliminate the tabbed area (recognition/post) above the homepage feed, and the only messages that populate the homepage feed would come from 7Geese modules.  That being the case, users would still be able to comment on items in the feed as they currently do, and would still be able to "Post" on the objective page feed.
 
@@ -66,11 +71,21 @@ Have I missed anything important here?  Any holes in my pattern of thinking? [Le
 <p class="article-end"></p>
 
 <span class="annotation">
-    a higher fidelity view of a feed re-design
+    Idea #1 - a feed re-design with an emphasis on people (like the current feed)
 </span>
-![a new feed](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+![a new feed #1](feed1.jpg)
 
 <span class="annotation">
-    a lower fidelity view of the feed on the homepage
+    Idea #2 – emphasis on tasks
 </span>
-![a new feed on the homepage](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+![a new feed #2](feed2.jpg)
+
+<span class="annotation">
+    icon brainstorming
+</span>
+![icon brainstorming](icon-brainstorming.jpg)
+
+<span class="annotation">
+    a lower fidelity view of how the new feed might fit into a different homepage layout
+</span>
+![a new feed on the homepage](homepage-layout.jpg)
