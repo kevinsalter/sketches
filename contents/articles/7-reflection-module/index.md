@@ -33,11 +33,11 @@ So, how might the **7Geese Model of Reflection™** look?
 
 At the highest level, you would enter your weekly priorities as a checklist at the start of the week, and reflect on those priorities and anything else significant that happened at the end of the week.  That would be the cycle.
 
-For entering Weekly Priorities, it'd be cool to have a TODO-list or [workflowy](https://workflowy.com/demo/embed/)-style interface to capture priorities in a standard, familiar way.  Arash had the awesome idea of potentially pre-populating this list with the person's "redo" from the previous week as a way to help keep people accountable to themselves.
+For entering Weekly Priorities, it'd be cool to have a TODO-list or [workflowy](https://workflowy.com/demo/embed/)-style interface to capture priorities in a standard, familiar way.  Arash had the awesome idea of potentially pre-populating this list with the person's "redo" from the previous week as a way to help keep people accountable to themselves.  It'd also be cool if you were shown some kind of week-over-week graph that showed a completion percentage, or in some way represented your trend of success with your weekly priorities.
 
 The reflection part of the module would be more involved.  First, we'll need a way to address the priorities.  Unlike a TODO-list, I notice that people (including myself) tend not to evaluate priorities as complete/incomplete.  You might want to mark a task as "half done", "ran out of time, moved to next week", "complete", "changed", "delegated", or some other evaluation.  Once the priorities list has been given attention, it would then be time to write a personal reflection.
 
-I wonder if it'd be cool to choose which format your reflection takes based on a template, i.e. blank screen, list of headings (Proud, Learning, Redos), list of questions ("When was a moment this week where you felt like you were performing at the top of your capabilities?"), etc.  This is where the platform could start to accommodate the different methodologies.  It'd be extra cool if 7Geese asked you specific questions [based on your current OKRs](http://sketches.kevinsalter.me/articles/5-no-ui/).
+I wonder if it'd be cool to choose which format your reflection takes based on a template, i.e. blank screen, list of headings (Proud, Learning, Redos), list of questions ("When was a moment this week where you felt like you were performing at the top of your capabilities?"), or even listing out the Weekly Priorities with space under each one to write an assessment.  This is where the platform could start to accommodate the different methodologies.  Also, it'd be extra cool if 7Geese asked you specific questions [based on your current OKRs](http://sketches.kevinsalter.me/articles/5-no-ui/).
 
 I'm also wondering if a full-screen, distraction-free mode would be useful for this exercise.  And when you enter full-screen mode, it totally relaxes you by using the [Noisli API](http://www.noisli.com/) to play the soothing sounds of nature in the background while you type... _(lol, obviously I'm kidding, but I actually tried a Markdown editor once that had that "feature"...it was the worst...)_
 
@@ -50,6 +50,6 @@ How would you imagine reflection functioning in 7Geese?  [Let me know in the com
 <p class="article-end"></p>
 
 <span class="annotation">
-    full-screen reflection design
+    reflection module concept sketch
 </span>
-![full-screen reflection](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+![full-screen reflection](reflection-module.jpg)
