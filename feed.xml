@@ -5,9 +5,45 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Mon, 17  Aug 2015 17:00:00 -0700</pubDate>
+    <pubDate>Thu, 27  Aug 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>reflection as a module</title>
+      <link>sketches.kevinsalter.me/articles/7-reflection-module/</link>
+      <pubDate>Thu, 27  Aug 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/7-reflection-module/</guid>
+      <author></author>
+      <description>&lt;blockquote&gt;
+“By three methods we may learn wisdom: first, by reflection, which is noblest; second, by imitation, which is easiest; and third, by experience, which is the most bitter.” &lt;br&gt;&lt;br&gt;~ Confucius
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Seven months ago, just after joining the flock at 7Geese, I did my first stand-up, group reflection.  I remember feeling weird about it, since I’d never really made an effort to consciously engage in a process of personal reflection before, let alone share that reflection with a room full of my colleagues. &lt;em&gt;(yes, I’m reflecting in my post about reflection…)&lt;/em&gt;  However, in months following, I’ve grown to appreciate the power of the reflection process in all aspects of my life.  I’m interested to see what form this process could take as a module in 7Geese, as I feel it’s in strong alignment with the platform’s goal to further empower the Individual Contributor.&lt;/p&gt;
+&lt;h4 id=&quot;reflection-what-s-the-point-&quot;&gt;Reflection: What’s the point?&lt;/h4&gt;
+&lt;p&gt;For me, the greatest strength of the reflection process lies in its proclivity to harvest the learnings of personal experience and apply that knowledge gained to future tasks.  &lt;a href=&quot;http://web.mit.edu/cil/web_scripts/www/Critical%20Moments%20Methodology%20Brief%20CoLab.pdf&quot;&gt;It requires the reconstruction and reinterpretation of the experience illuminated by its results&lt;/a&gt;.  We can learn from our mistakes (redos) and not be doomed to repeat them.  We can gain a clarity that sparks decisive action. In the startup world, people &lt;a href=&quot;http://firstround.com/review/the-most-dangerous-leadership-traps-and-the-15-minute-daily-practice-that-will-save-you/&quot;&gt;can’t afford to have low learning efficiency. They must milk each experience for maximum learning. Reflection is the key for accelerating your learning curve&lt;/a&gt;.  And by being good learners, we become good teachers by sharing that expertise with the rest of the team.&lt;/p&gt;
+&lt;h4 id=&quot;tone-context-and-habit&quot;&gt;Tone, Context, and Habit&lt;/h4&gt;
+&lt;p&gt;When sharing personal thoughts and feelings (that you compose on your own) with your colleagues (in a group situation), it’s important to establish the right tone.  People should feel safe to publish their reflection in a conversational, clear, truthful way.  They should be able to fearlessly talk about wins and identify road blocks knowing that their teammates are there to &lt;a href=&quot;https://www.youtube.com/watch?v=QhXJe8ANws8&amp;amp;feature=youtu.be&quot;&gt;support and collaborate&lt;/a&gt;. &lt;em&gt;(&amp;lt;— highly, highly recommend this video)&lt;/em&gt;  Finally, you would publish your reflection habitually as part of a timely, consistent cycle.  This not only creates a record of your progress and creates a powerful feedback loop with teammates, but also holds the individual accountable to maintaining the process.&lt;/p&gt;
+&lt;h4 id=&quot;methodologies&quot;&gt;Methodologies&lt;/h4&gt;
+&lt;p&gt;I’d come across several methodologies that would be really interesting to try and interpret and apply in the context of software interface and 7Geese.  It’s a bit out of the scope of this post, but quickly, it’d be compelling to explore &lt;a href=&quot;http://web.mit.edu/cil/web_scripts/www/Critical%20Moments%20Methodology%20Brief%20CoLab.pdf&quot;&gt;Critical Moment Reflection Methodology&lt;/a&gt;, &lt;a href=&quot;http://firstround.com/review/the-most-dangerous-leadership-traps-and-the-15-minute-daily-practice-that-will-save-you/#text_0c261222fe6c4890b423ad167d4e4e5f&quot;&gt;Integral Theory&lt;/a&gt;, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Reflective_practice#Gibbs_1988&quot;&gt;Gibbs model of reflection&lt;/a&gt;, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Reflective_practice&quot;&gt;any of these, really&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For this post, I’d like to narrow the focus to imaging what it would be like to combine our current workflow of Weekly Priorities (wins, obstacles, proud, learning, redos) in a way that allows for engagement from colleagues that would ultimately obviate the Feedback module.&lt;/p&gt;
+&lt;p&gt;If there are any other techniques or methodologies that you use, &lt;a href=&quot;sketches.kevinsalter.me/articles/7-reflection-module/#disqus_thread&quot;&gt;tell me about them in the comments&lt;/a&gt;!&lt;/p&gt;
+&lt;h4 id=&quot;workflow-ux-ui&quot;&gt;Workflow, UX, UI&lt;/h4&gt;
+&lt;p&gt;So, how might the &lt;strong&gt;7Geese Model of Reflection™&lt;/strong&gt; look?&lt;/p&gt;
+&lt;p&gt;At the highest level, you would enter your weekly priorities as a checklist at the start of the week, and reflect on those priorities and anything else significant that happened at the end of the week.&lt;/p&gt;
+&lt;p&gt;For entering Weekly Priorities, it’d be cool to have a TODO-list or &lt;a href=&quot;https://workflowy.com/demo/embed/&quot;&gt;workflowy&lt;/a&gt;-style interface to capture priorities in a standard, familiar way.  Arash had the awesome idea of potentially pre-populating this list with the person’s “redo” from the previous week as a way to help keep people accountable to themselves.&lt;/p&gt;
+&lt;p&gt;The Reflection part of the module would be more involved.  First, we’ll need a way to address the priorities.  Unlike a TODO-list, I notice that people (including myself) don’t tend to evaluate priorities in a complete/incomplete fashion.  There are shades, including “half done”, “ran out of time, moved to next week”, “complete”, “changed”, and there may be others.  Once the list has been given attention, it would then be time to write a personal reflection.&lt;/p&gt;
+&lt;p&gt;I wonder if it’d be cool to choose which format your reflection takes based on a template, i.e. blank screen, list of headings (Proud, Learning, Redos), list of questions (“When was a moment this week where you felt like you were performing at the top of your capabilities?”), etc.  It’d be extra cool if 7Geese &lt;a href=&quot;http://sketches.kevinsalter.me/articles/5-no-ui/&quot;&gt;asked you specific questions&lt;/a&gt; based on your current OKRs.&lt;/p&gt;
+&lt;p&gt;I’m also wondering if a full-screen, distraction-free mode would be useful for this exercise.  And when you enter full-screen mode, it totally relaxes you by using the &lt;a href=&quot;http://www.noisli.com/&quot;&gt;Noisli API&lt;/a&gt; to play the soothing sounds of nature. &lt;em&gt;(lol, obviously I’m kidding, but I actually tried a Markdown editor once that had that “feature”…it was the worst…)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Finally, commenting and “liking” are obvious staples for interacting with the finished posts, but in the interest of feeling safe and confident in publishing your personal reflection, this is one 7Geese module that would benefit form the ability to “edit” your post!&lt;/p&gt;
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    Lorem ipsum dolor sit amet, consectetur adipisicing
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;a new feed #1&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>feed me</title>
       <link>sketches.kevinsalter.me/articles/6-feed-me/</link>
