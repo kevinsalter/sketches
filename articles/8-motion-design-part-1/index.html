@@ -116,8 +116,10 @@ In <strong>Part 2</strong> I’ll use <a href="http://www.adobe.com/ca/products/
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
       
-      ga('create', 'UA-66379942-1', 'auto');
-      ga('send', 'pageview');
+      if (document.location.hostname !== 'localhost') {
+        ga('create', 'UA-66379942-1', 'auto');
+        ga('send', 'pageview');
+      }
     </script>
   </body>
 </html>
