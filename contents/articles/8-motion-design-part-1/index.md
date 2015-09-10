@@ -53,6 +53,9 @@ You need a license for these things!!  Not really, but they're easy to overdo.  
 
 Motion design existed well before the digital age, and even [thousands of years ago, depending who you ask](http://news.discovery.com/history/archaeology/prehistoric-movies-120608.htm).  But modern animation and motion design as we know it arguably began in the 1930s with Disney's [12 basic principles of animation](https://vimeo.com/93206523).  These principles are echoed and expanded upon for the digital age in Google's [Material Design Animation](https://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-user-input) docs and also Apple's [iOS Human Interface Guidelines](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Animation.html#//apple_ref/doc/uid/TP40006556-CH57-SW1).  The fact that the two largest mobile platforms have documentation on how animations should be done is quite telling.  Although, while it's helpful to have these written guidelines, it's important to remember that, in the end, motion is one of those things that just has to _feel right_ and fit in the context it's used.
 
+**A note on broswer support:** With our unceremonious kicking of IE8 to the curb, we gain a lot more options for leveraging awesome, state-of-the-art web technologies to create animation!  🎉
+
+<div style="margin:0 auto 80px;text-align:center;width: 450px;">![broswer support](./browser-support.png)</div>
 
 #### Down Wit' OPP
 
