@@ -62,7 +62,11 @@ While there are some [pretty](http://species-in-pieces.com/) [amazing](http://ww
 
 This is [one example](https://dribbble.com/shots/2075475-KickMaterial-Kickstarter-Material-app-icon) of an animated app icon– in this case, for a fan-made Android Kickstarter app.  It's not _necessarily_ a piece of the UI, although it could be used in-app or on the homescreen of a mobile device.  Really, I think that creating an animated icon tailored for a specific app is just a cool opportunity to express the values and personality of a brand while showing off some design facility.
 
-<div style="margin:0 auto;text-align:center;width:500px;">![airplane animation](./airplane-ui.gif)</div><br>
+<div style="margin:30px auto;text-align:center;">
+    <p data-height="500" data-theme-id="0" data-slug-hash="oXLroX" data-default-tab="result" data-user="suez" class='codepen'>See the Pen <a href='http://codepen.io/suez/pen/oXLroX/'>Pull Down to Refresh (Paper Plane)</a> by Nikolay Talanov (<a href='http://codepen.io/suez'>@suez</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</script>
+</div>
 
 [This airplane animation](https://www.materialup.com/blog/create-material-design-animation) falls squarely into the inspiration category for me.  What this design lacks in practicality it more than makes up for in its execution and fun, surprise factor.
 
