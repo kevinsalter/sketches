@@ -41,13 +41,13 @@ Wondering what’s going to pop up?!  Of course you are!  GIFs are awesome.  Mov
 &lt;p&gt;Finally, motion can help inform the visual hierarchy of a screen in an equally important way as the size and colour of elements.  Motion catches the eye and can draw a user’s attention to that section of the screen.  Good examples of this are when items are animated-in as they’re appended to a list, or when a numbers swells-in above a notifications icon to indicate unread messages.  Even a looping animation might be effective to highlight the next element that the user should (or even must) interact with.&lt;/p&gt;
 &lt;div style=&quot;margin:0 auto 45px;text-align:center;width:100px;&quot;&gt;&lt;img src=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/jingle.gif&quot; alt=&quot;jingle&quot;&gt;&lt;/div&gt;
 
-&lt;p&gt;Is there an amazing example of motion design in an app you’ve used, or someone’s portfolio you’ve checked out before?  &lt;a href=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/#disqus_thread&quot;&gt;Post a link!!&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;be-careful-&quot;&gt;Be Careful!!&lt;/h4&gt;
-&lt;p&gt;A word from &lt;a href=&quot;https://youtu.be/HgY-xvyIlzY&quot;&gt;Buzz Killington&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;Is there an amazing example of motion design in an app you’ve used, or someone’s portfolio you’ve checked out before?  &lt;a href=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/#disqus_thread&quot;&gt;Post a link!&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&quot;be-careful-&quot;&gt;Be Careful!&lt;/h4&gt;
+&lt;p&gt;A quick word from &lt;a href=&quot;https://youtu.be/HgY-xvyIlzY&quot;&gt;Buzz Killington&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;You need a license for these things!!  Not really, but they’re easy to overdo.  The most pleasing and effective animations typically show a great deal of restraint and good taste.  They have to be applied consistently, just like any other enhancement, to avoid negatively surprising the user, or worse still, confusing them and putting them off task.&lt;/p&gt;
 &lt;h4 id=&quot;read-the-docs&quot;&gt;Read The Docs&lt;/h4&gt;
 &lt;p&gt;Motion design existed well before the digital age, and even &lt;a href=&quot;http://news.discovery.com/history/archaeology/prehistoric-movies-120608.htm&quot;&gt;thousands of years ago, depending who you ask&lt;/a&gt;.  But modern animation and motion design as we know it arguably began in the 1930s with Disney’s &lt;a href=&quot;https://vimeo.com/93206523&quot;&gt;12 basic principles of animation&lt;/a&gt;.  These principles are echoed and expanded upon for the digital age in Google’s &lt;a href=&quot;https://www.google.com/design/spec/animation/responsive-interaction.html#responsive-interaction-user-input&quot;&gt;Material Design Animation&lt;/a&gt; docs and also Apple’s &lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/Animation.html#//apple_ref/doc/uid/TP40006556-CH57-SW1&quot;&gt;iOS Human Interface Guidelines&lt;/a&gt;.  The fact that the two largest mobile platforms have documentation on how animations should be done is quite telling.  Although, while it’s helpful to have these written guidelines, it’s important to remember that, in the end, motion is one of those things that just has to &lt;em&gt;feel right&lt;/em&gt; and fit in the context it’s used.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;A note on broswer support:&lt;/strong&gt; With our unceremonious kicking of IE8 to the curb, we gain a lot more options for leveraging awesome, state-of-the-art web technologies to create animation!  🎉&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A note on broswer support:&lt;/strong&gt; With our recent, unceremonious kicking of IE8 to the curb, we gain a lot more options for leveraging awesome, state-of-the-art web technologies to create animation!  🎉&lt;/p&gt;
 &lt;div style=&quot;margin:0 auto 80px;text-align:center;width: 450px;&quot;&gt;&lt;img src=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/browser-support.png&quot; alt=&quot;broswer support&quot;&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;down-wit-opp&quot;&gt;Down Wit’ OPP&lt;/h4&gt;
@@ -77,6 +77,7 @@ This is &lt;a href=&quot;https://dribbble.com/shots/2075475-KickMaterial-Kicksta
 &lt;li&gt;when new messages appear at the top of the feed&lt;/li&gt;
 &lt;li&gt;when new notifications are available (icon background colour and the number indicator in the nav bar)&lt;/li&gt;
 &lt;li&gt;when modal dialogs appear/disappear&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;a href=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/#disqus_thread&quot;&gt;some other idea you just thought of…&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;hr&gt;
 In &lt;strong&gt;Part 2&lt;/strong&gt; I’ll use &lt;a href=&quot;http://www.adobe.com/ca/products/aftereffects.html&quot;&gt;After Effects&lt;/a&gt; or maybe &lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap.svg&lt;/a&gt; to make one of these sketches move.  Also, I might need to do some consulting on the finer points of SVGs… Kevin Fales, I’m looking at you. 👀
