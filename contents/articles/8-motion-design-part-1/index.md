@@ -100,6 +100,6 @@ In **Part 2** I'll use [After Effects](http://www.adobe.com/ca/products/aftereff
 <p class="article-end"></p>
 
 <span class="annotation">
-    motion design concepts
+    7Geese animated icons concepts
 </span>
-![motion design sketches](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+![animated icons](./7geese-animated-icons.jpg)
