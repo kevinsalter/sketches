@@ -14,7 +14,8 @@
       <pubDate>Thu, 17 Sep 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">sketches.kevinsalter.me/articles/9-motion-design-part-2/</guid>
       <author></author>
-      <description>&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./sweetalert.css&quot;&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'&gt;&lt;/p&gt;
+&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./sweetalert.css&quot;&gt;&lt;/p&gt;
 &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./main.css&quot;&gt;
 
 &lt;p&gt;This week I’ll be picking up where I left off in &lt;a href=&quot;sketches.kevinsalter.me/articles/9-motion-design-part-2/sketches.kevinsalter.me/articles/8-motion-design-part-1/&quot;&gt;Part 1&lt;/a&gt; and make some animation happen.  At best, the hope is that some of this experimentation yields something useful, or at least some interesting thoughts and dicussion.  At worst, I learned a ton of cool stuff about SVG animation, and did some math.  😄
@@ -50,6 +51,7 @@
 &lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
     SVG animation demo - OKR Grading
 &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;container&quot;&gt;
 &lt;svg version=&quot;1.1&quot; id=&quot;svg&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot;
      width=&quot;500px&quot; height=&quot;500px&quot; viewBox=&quot;0 0 500 500&quot; enable-background=&quot;new 0 0 500 500&quot; xml:space=&quot;preserve&quot;&gt;
 
@@ -65,11 +67,22 @@
 &lt;circle id=&quot;face-outline&quot; fill=&quot;none&quot; stroke=&quot;#E5D0AE&quot; stroke-width=&quot;5&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;10&quot; cx=&quot;250&quot; cy=&quot;250&quot; r=&quot;244.275&quot;/&gt;
 &lt;/svg&gt;
 
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;input type=&quot;range&quot; id=&quot;grade-slider&quot; style=&quot;width:160px;&quot; min=0 max=1 value=0.5 step=0.01&gt;
-&lt;span id=&quot;grade&quot;&gt;0.5&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;textarea&gt;&lt;/textarea&gt;&lt;/p&gt;
-&lt;button id=&quot;submit&quot;&gt;Grade this OKR!&lt;/button&gt;
+&lt;br&gt;
+&lt;input type=&quot;range&quot; id=&quot;grade-slider&quot; style=&quot;width:160px;&quot; min=0 max=1 value=0.5 step=0.01&gt;
+
+&lt;div class=&quot;okr-grade-sentence&quot;&gt;Beat our Q1 financial targets | Grade: &lt;strong id=&quot;grade&quot; class=&quot;grade&quot;&gt;0.50&lt;/strong&gt;&lt;/div&gt;
+&lt;h5&gt;Key Results&lt;/h6&gt;
+&lt;ul class=&quot;key-results-list&quot;&gt;
+    &lt;li&gt;Achieve &amp;gt; $10M in product revenue&lt;/li&gt;
+    &lt;li&gt;International sales of at least $2M&lt;/li&gt;
+    &lt;li&gt;Customer churn rate under 5%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;textarea class=&quot;assessment&quot;
+          placeholder=&quot;Reflect on the progress you've made this quarter...&quot;&gt;
+&lt;/textarea&gt;
+
+&lt;button id=&quot;submit&quot; class=&quot;submit-btn&quot;&gt;Grade this OKR!&lt;/button&gt;
+&lt;/div&gt;
 
 &lt;script type=&quot;text/javascript&quot; src=&quot;./snap.svg.js&quot;&gt;&lt;/script&gt;
 &lt;script type=&quot;text/javascript&quot; src=&quot;./sweetalert.min.js&quot;&gt;&lt;/script&gt;

@@ -24,7 +24,8 @@
     <div id="content">
       <div class="content-wrap">
         <article class="article">
-          <section class="content"><p><link rel="stylesheet" type="text/css" href="./sweetalert.css"></p>
+          <section class="content"><p><link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'></p>
+<p><link rel="stylesheet" type="text/css" href="./sweetalert.css"></p>
 <link rel="stylesheet" type="text/css" href="./main.css">
 
 <p>This week I’ll be picking up where I left off in <a href="/articles/9-motion-design-part-2/sketches.kevinsalter.me/articles/8-motion-design-part-1/">Part 1</a> and make some animation happen.  At best, the hope is that some of this experimentation yields something useful, or at least some interesting thoughts and dicussion.  At worst, I learned a ton of cool stuff about <span class="caps">SVG</span> animation, and did some math.  😄
@@ -60,6 +61,7 @@
 <p><span class="annotation">
     <span class="caps">SVG</span> animation demo - OKR&nbsp;Grading
 </span></p>
+<div class="container">
 <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 
@@ -75,11 +77,22 @@
 <circle id="face-outline" fill="none" stroke="#E5D0AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="250" cy="250" r="244.275"/>
 </svg>
 
-<p><br></p>
-<p><input type="range" id="grade-slider" style="width:160px;" min=0 max=1 value=0.5 step=0.01>
-<span id="grade">0.5</span></p>
-<p><textarea></textarea></p>
-<button id="submit">Grade this <span class="caps">OKR</span>!</button>
+<br>
+<input type="range" id="grade-slider" style="width:160px;" min=0 max=1 value=0.5 step=0.01>
+
+<div class="okr-grade-sentence">Beat our Q1 financial targets | Grade: <strong id="grade" class="grade">0.50</strong></div>
+<h5>Key&nbsp;Results</h6>
+<ul class="key-results-list">
+    <li>Achieve &gt; $10M in product&nbsp;revenue</li>
+    <li>International sales of at least&nbsp;$2M</li>
+    <li>Customer churn rate under&nbsp;5%</li>
+</ul>
+<textarea class="assessment"
+          placeholder="Reflect on the progress you've made this quarter...">
+</textarea>
+
+<button id="submit" class="submit-btn">Grade this <span class="caps">OKR</span>!</button>
+</div>
 
 <script type="text/javascript" src="./snap.svg.js"></script>
 <script type="text/javascript" src="./sweetalert.min.js"></script>

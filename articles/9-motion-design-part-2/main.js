@@ -25,7 +25,7 @@ window.onload = function() {
 
     var resetDemo = function() {
         slider.value = 0.5;
-        grade.innerHTML = 0.5;
+        grade.innerHTML = 0.50;
         yM = 351.329;
         yc1 = yc2 = 0;
 
@@ -36,16 +36,16 @@ window.onload = function() {
     }
 
     slider.addEventListener('input', function() {
-        grade.innerHTML = this.value;
+        grade.innerHTML = (Math.round(+this.value * 100) / 100).toFixed(2);
         mouthAnimation(this.value);
     })
 
     submitButton.addEventListener('click', function(e) {
         swal({
-          title: "Nice Job!",
-          text: "You gave this OKR a grade of <strong>" + slider.value + "</strong>",
-          type: "success",
-          confirmButtonText: "Awesome!",
+          title: 'Nice Job!',
+          text: 'You gave this OKR a grade of <strong>' + slider.value + '</strong>',
+          type: 'success',
+          confirmButtonText: 'Awesome!',
           html: true
         }, function(){
             resetDemo();

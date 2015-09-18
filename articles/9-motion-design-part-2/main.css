@@ -1,4 +1,88 @@
+.container {
+    text-align: center;
+    margin: 0 auto;
+}
+
 #svg {
     width: 200px;
     height: 200px;
+    margin-bottom: 25px;
+}
+
+.okr-grade-sentence {
+    max-width: 460px;
+    text-align: center;
+    margin: 25px auto 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444;
+}
+
+.grade {
+    display:inline-block;
+    min-width:44px;
+}
+
+.key-results-list {
+    max-width: 265px;
+    margin: 10px auto 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.assessment {
+    width: 85%;
+    min-height: 50px;
+    margin: 35px 0;
+    background: transparent;
+    border: 1px solid #e6e6e6;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.submit-btn {
+  background-color: #8CD4F5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-border-radius: 4px;
+  border-radius: 5px;
+  padding: 4px 18px;
+  line-height: 48px;
+  overflow: visible;
+  text-align: center;
+  text-decoration: none;
+  transition: 150ms;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="submit"]:focus,
+.button:hover,
+.button:focus {
+    background-color: #7ecff4;
+    color: white;
+    text-decoration: none;
+}
+
+button:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="submit"]:active,
+.button:focus,
+.button:active {
+outline: none;
 }

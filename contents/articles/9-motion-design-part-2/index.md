@@ -4,6 +4,7 @@ author: kevinsalter
 date: 2015-09-18
 template: article.jade
 ---
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="./sweetalert.css">
 <link rel="stylesheet" type="text/css" href="./main.css">
 
@@ -44,6 +45,7 @@ For this demo I decided to use Snap SVG because I'm just really digging that lib
     SVG animation demo - OKR Grading
 </span>
 
+<div class="container">
 <svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
 
@@ -61,10 +63,20 @@ For this demo I decided to use Snap SVG because I'm just really digging that lib
 
 <br>
 <input type="range" id="grade-slider" style="width:160px;" min=0 max=1 value=0.5 step=0.01>
-<span id="grade">0.5</span>
 
-<textarea></textarea>
-<button id="submit">Grade this OKR!</button>
+<div class="okr-grade-sentence">Beat our Q1 financial targets | Grade: <strong id="grade" class="grade">0.50</strong></div>
+<h5>Key Results</h6>
+<ul class="key-results-list">
+    <li>Achieve > $10M in product revenue</li>
+    <li>International sales of at least $2M</li>
+    <li>Customer churn rate under 5%</li>
+</ul>
+<textarea class="assessment"
+          placeholder="Reflect on the progress you've made this quarter...">
+</textarea>
+
+<button id="submit" class="submit-btn">Grade this OKR!</button>
+</div>
 
 <script type="text/javascript" src="./snap.svg.js"></script>
 <script type="text/javascript" src="./sweetalert.min.js"></script>
