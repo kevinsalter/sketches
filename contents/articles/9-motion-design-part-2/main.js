@@ -2,6 +2,7 @@ window.onload = function() {
 
     var slider = document.getElementById('grade-slider'),
         grade = document.getElementById('grade'),
+        assessment = document.getElementById('assessment'),
         submitButton = document.getElementById('submit'),
         mouth = Snap.select('#mouth'),
         pathDescription = '',
@@ -26,6 +27,7 @@ window.onload = function() {
     var resetDemo = function() {
         slider.value = 0.5;
         grade.innerHTML = 0.50;
+        assessment.value = '';
         yM = 351.329;
         yc1 = yc2 = 0;
 

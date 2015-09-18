@@ -77,7 +77,8 @@
     &lt;li&gt;International sales of at least $2M&lt;/li&gt;
     &lt;li&gt;Customer churn rate under 5%&lt;/li&gt;
 &lt;/ul&gt;
-&lt;textarea class=&quot;assessment&quot;
+&lt;textarea id=&quot;assessment&quot;
+          class=&quot;assessment&quot;
           placeholder=&quot;Reflect on the progress you've made this quarter...&quot;&gt;
 &lt;/textarea&gt;
 

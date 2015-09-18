@@ -71,7 +71,8 @@ For this demo I decided to use Snap SVG because I'm just really digging that lib
     <li>International sales of at least $2M</li>
     <li>Customer churn rate under 5%</li>
 </ul>
-<textarea class="assessment"
+<textarea id="assessment"
+          class="assessment"
           placeholder="Reflect on the progress you've made this quarter...">
 </textarea>
 
