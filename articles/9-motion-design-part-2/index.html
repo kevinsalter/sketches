@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>motion design (part 2 of 2) - sketches
+    </title>
+    <link rel="alternate" href="sketches.kevinsalter.me/feed.xml" type="application/rss+xml" title="✍">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body class="article-detail">
+    <header class="header">
+      <div class="content-wrap">
+        <h1>motion design (part 2 of 2)</h1>
+        <p class="author">
+          <p style="max-width:350px;margin:0 auto 1em;text-transform:none;" class="author"><span>thought experiments and ui/ux wireframing for personal reflection and feedback from the 7Geese flock</span></p>
+          <p style="margin-bottom:0.45em;" class="author"><span class="coffee-cup"></span><span class="author"><a href="mailto:kevins@7geese.com">Kevin Salter</a></span>
+          </p>
+        </p>
+      </div>
+    </header>
+    <div id="content">
+      <div class="content-wrap">
+        <article class="article">
+          <section class="content"><p><link rel="stylesheet" type="text/css" href="./sweetalert.css"></p>
+<link rel="stylesheet" type="text/css" href="./main.css">
+
+<p>This week I’ll be picking up where I left off in <a href="/articles/9-motion-design-part-2/sketches.kevinsalter.me/articles/8-motion-design-part-1/">Part 1</a> and make some animation happen.  At best, the hope is that some of this experimentation yields something useful, or at least some interesting thoughts and dicussion.  At worst, I learned a ton of cool stuff about <span class="caps">SVG</span> animation, and did some math.  😄
+<span class="more"></span></p>
+<h4 id="3-ways-to-animate-svgs-on-the-web">3 Ways to Animate SVGs on the&nbsp;Web</h4>
+<p>It turns out there are 3 different ways to execute animating SVGs, but there was one clear winner.  Sara Soueidan wrote <a href="http://blogs.adobe.com/dreamweaver/2015/06/the-state-of-svg-animation.html">a great post on the Adobe blog</a> a couple months ago about the details of all 3 methods, but here’s an overall&nbsp;summary.</p>
+<ol>
+<li><p><strong><span class="caps">SMIL</span></strong> (pronounced “Smile”) is an <span class="caps">XML</span>-based language that was created to enable authors to write declarative animations.  Essentionally, you just add a tag to the raw SVG data, as seen below in the <code>animate</code> tag in this example from <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL"><span class="caps">MDN</span></a>:</p>
+<pre><code class="lang-html"><span class="tag">&lt;<span class="title">svg</span> <span class="attribute">width</span>=<span class="value">"300px"</span> <span class="attribute">height</span>=<span class="value">"100px"</span>&gt;</span>
+ <span class="tag">&lt;<span class="title">rect</span> <span class="attribute">x</span>=<span class="value">"0"</span> <span class="attribute">y</span>=<span class="value">"0"</span> <span class="attribute">width</span>=<span class="value">"300"</span> <span class="attribute">height</span>=<span class="value">"100"</span> <span class="attribute">stroke</span>=<span class="value">"black"</span> <span class="attribute">stroke-width</span>=<span class="value">"1"</span> /&gt;</span>
+     <span class="tag">&lt;<span class="title">circle</span> <span class="attribute">cx</span>=<span class="value">"0"</span> <span class="attribute">cy</span>=<span class="value">"50"</span> <span class="attribute">r</span>=<span class="value">"15"</span> <span class="attribute">fill</span>=<span class="value">"blue"</span> <span class="attribute">stroke</span>=<span class="value">"black"</span> <span class="attribute">stroke-width</span>=<span class="value">"1"</span>&gt;</span>
+     <span class="tag">&lt;<span class="title">animate</span> <span class="attribute">attributeName</span>=<span class="value">"cx"</span> <span class="attribute">from</span>=<span class="value">"0"</span> <span class="attribute">to</span>=<span class="value">"100"</span> <span class="attribute">dur</span>=<span class="value">"5s"</span> <span class="attribute">repeatCount</span>=<span class="value">"indefinite"</span> /&gt;</span>
+     <span class="tag">&lt;/<span class="title">circle</span>&gt;</span>
+<span class="tag">&lt;/<span class="title">svg</span>&gt;</span>
+</code></pre>
+<p>While there are a lot more interesting details about this spec, broswer support has always been spotty and Internet Explorer has never supported it.  Finally, <span class="caps">SMIL</span> is set to be completely deprecated in Blink (the rendering engine used in Chrome) in favour of CSS and Web Animations,&nbsp;so…</p>
+</li>
+<li><p><strong><span class="caps">CSS</span> Animations</strong> are super powerful, and have established themselves as a best practice technique for animatiing <span class="caps">DOM</span> elements in a smooth, powerful way that keeps animations within their 60 frames-per-second budget and helps keep the web <a href="http://jankfree.org/">jank free</a>.  However, for animating SVGs there are a couple of areas where <span class="caps">CSS</span> trips up.  When it comes to <em>transforms</em> (i.e. translate, rotate, scale, skew), which are often key elements to full fledged animations, Firefox has some weird quirks and Opera and Internet Explorer don’t recognize <span class="caps">CSS</span> transformations on SVG elements at all.  Speaking of which, another downside to using CSS is that IE9 doesn’t support CSS <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes"><code>@keyframes</code></a> animations,&nbsp;so…</p>
+</li>
+<li><p>…the winner is, <strong>JavaScript</strong>!  It kind of makes sense, though– you get all the capabilities of <span class="caps">SMIL</span> and CSS, plus you have access to the whole DOM API, the [Web Animations API], and all the power of the scripting language itself (variables, loops, functions, etc.).  Add the fact that it’s possible to make the resulting animations compatible with all browsers, even old versions of IE, makes this animation method the clear winner.&nbsp;🎉</p>
+</li>
+</ol>
+<h4 id="which-js-library-to-use-for-svg-animation-">Which <span class="caps">JS</span> library to use for SVG&nbsp;animation?</h4>
+<p>Managing the boilerplate of animating SVGs, especially timing issues among a group of animations, can get difficult really quickly, so it can help to leverage a JavaScript library.  There were a few great libraries I found and quickly trialed before choosing for these demos, and here’s a short list of&nbsp;them:</p>
+<ul>
+<li><strong><a href="http://julian.com/research/velocity/">Velocity.js</a></strong> is really cool.  It’s a super-optimized, <span class="caps">API</span> compatible, drop-in replacement for jQuery’s <code>$.animate()</code> method without the performance issues and with broswer compatability going across the the board and all the way back to <span class="caps">IE8</span>.  The project was also back by Stripe, who are known for their cool UI animations.  It’s under the <a href="https://en.wikipedia.org/wiki/MIT_License"><span class="caps">MIT</span> License</a>.</li>
+<li><strong><a href="http://greensock.com/docs/#/HTML5/GSAP/">GreenSock Animation Platform</a></strong> (<span class="caps">GSAP</span>) seems to be the best choice for gaining full control over large, complex animations. Their concepts of attaching things to timelines, and grouping animations to be triggered in different orders is some powerful stuff.  It’s under the <a href="http://greensock.com/standard-license">Standard “No Charge” GreenSock License</a>.</li>
+<li><strong><a href="http://snapsvg.io/">Snap <span class="caps">SVG</span></a></strong> is a library that flies under the Adobe flag, but was written by and based on the work of the guy who created <a href="http://raphaeljs.com/">Raphaël</a>.  It claims to make “working with your <span class="caps">SVG</span> assets as easy as jQuery makes working with the DOM”, and is compatible across broswers and with IE9+.  I found it equally as simple to use the library to draw shapes on the page, or manipulate existing SVGs.  It also has some AJAX capabilities baked in for dynamically grabbing SVGs from whereever and injecting them into the document.  It’s under the <a href="https://github.com/adobe-webplatform/Snap.svg/blob/master/LICENSE">Apache 2 License</a>.</li>
+</ul>
+<p>For this demo I decided to use Snap <span class="caps">SVG</span> because I’m just really digging that library right now.  You can geek out on the commented code for this in <a href="./main.js" target="_blank"><code>main.js</code></a></p>
+<p class="article-end"></p>
+
+<p><span class="annotation">
+    <span class="caps">SVG</span> animation demo - OKR&nbsp;Grading
+</span></p>
+<svg version="1.1" id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+
+<path id="mouth" fill="none" stroke="#E5D0AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+        M 127.771,351.329 c 0,0 40.860771,0 120.770151,0 c 70.909379,0 120.770152,0 120.770152,0"/>
+
+<g id="eyes">
+    <circle fill="#E5D0AE" stroke="#E5D0AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="155" cy="170" r="7.5"/>
+
+    <circle fill="#E5D0AE" stroke="#E5D0AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="345" cy="170" r="7.5"/>
+</g>
+
+<circle id="face-outline" fill="none" stroke="#E5D0AE" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="250" cy="250" r="244.275"/>
+</svg>
+
+<p><br></p>
+<p><input type="range" id="grade-slider" style="width:160px;" min=0 max=1 value=0.5 step=0.01>
+<span id="grade">0.5</span></p>
+<p><textarea></textarea></p>
+<button id="submit">Grade this <span class="caps">OKR</span>!</button>
+
+<script type="text/javascript" src="./snap.svg.js"></script>
+<script type="text/javascript" src="./sweetalert.min.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+</section>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="content-wrap">
+        <div class="nav"><a href="/">« Full blog</a></div>
+        <h3>Got something to say?</h3>
+        <div id="disqus_thread"></div><script type="text/javascript">
+            var disqus_shortname = 'sketches-kevinsalter';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+        <section class="copy">
+          <p>&copy; 2015 kevinsalter &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      
+      if (document.location.hostname !== 'localhost') {
+        ga('create', 'UA-66379942-1', 'auto');
+        ga('send', 'pageview');
+      }
+    </script>
+  </body>
+</html>

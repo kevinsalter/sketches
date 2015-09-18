@@ -5,9 +5,77 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Thu, 10 Sep 2015 17:00:00 -0700</pubDate>
+    <pubDate>Thu, 17 Sep 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>motion design (part 2 of 2)</title>
+      <link>sketches.kevinsalter.me/articles/9-motion-design-part-2/</link>
+      <pubDate>Thu, 17 Sep 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/9-motion-design-part-2/</guid>
+      <author></author>
+      <description>&lt;p&gt;&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./sweetalert.css&quot;&gt;&lt;/p&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;./main.css&quot;&gt;
+
+&lt;p&gt;This week I’ll be picking up where I left off in &lt;a href=&quot;sketches.kevinsalter.me/articles/9-motion-design-part-2/sketches.kevinsalter.me/articles/8-motion-design-part-1/&quot;&gt;Part 1&lt;/a&gt; and make some animation happen.  At best, the hope is that some of this experimentation yields something useful, or at least some interesting thoughts and dicussion.  At worst, I learned a ton of cool stuff about SVG animation, and did some math.  😄
+&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;3-ways-to-animate-svgs-on-the-web&quot;&gt;3 Ways to Animate SVGs on the Web&lt;/h4&gt;
+&lt;p&gt;It turns out there are 3 different ways to execute animating SVGs, but there was one clear winner.  Sara Soueidan wrote &lt;a href=&quot;http://blogs.adobe.com/dreamweaver/2015/06/the-state-of-svg-animation.html&quot;&gt;a great post on the Adobe blog&lt;/a&gt; a couple months ago about the details of all 3 methods, but here’s an overall summary.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;SMIL&lt;/strong&gt; (pronounced “Smile”) is an XML-based language that was created to enable authors to write declarative animations.  Essentionally, you just add a tag to the raw SVG data, as seen below in the &lt;code&gt;animate&lt;/code&gt; tag in this example from &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL&quot;&gt;MDN&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;svg&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;300px&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;100px&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+ &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;rect&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;x&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;y&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;300&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;100&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;stroke&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;black&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;stroke-width&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;1&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;circle&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;cx&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;cy&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;50&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;r&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;15&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;blue&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;stroke&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;black&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;stroke-width&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;1&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;animate&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;attributeName&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;cx&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;from&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;to&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;100&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;dur&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;5s&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;repeatCount&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;indefinite&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;
+     &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;circle&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;svg&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;While there are a lot more interesting details about this spec, broswer support has always been spotty and Internet Explorer has never supported it.  Finally, SMIL is set to be completely deprecated in Blink (the rendering engine used in Chrome) in favour of CSS and Web Animations, so…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;CSS Animations&lt;/strong&gt; are super powerful, and have established themselves as a best practice technique for animatiing DOM elements in a smooth, powerful way that keeps animations within their 60 frames-per-second budget and helps keep the web &lt;a href=&quot;http://jankfree.org/&quot;&gt;jank free&lt;/a&gt;.  However, for animating SVGs there are a couple of areas where CSS trips up.  When it comes to &lt;em&gt;transforms&lt;/em&gt; (i.e. translate, rotate, scale, skew), which are often key elements to full fledged animations, Firefox has some weird quirks and Opera and Internet Explorer don’t recognize CSS transformations on SVG elements at all.  Speaking of which, another downside to using CSS is that IE9 doesn’t support CSS &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes&quot;&gt;&lt;code&gt;@keyframes&lt;/code&gt;&lt;/a&gt; animations, so…&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;…the winner is, &lt;strong&gt;JavaScript&lt;/strong&gt;!  It kind of makes sense, though– you get all the capabilities of SMIL and CSS, plus you have access to the whole DOM API, the [Web Animations API], and all the power of the scripting language itself (variables, loops, functions, etc.).  Add the fact that it’s possible to make the resulting animations compatible with all browsers, even old versions of IE, makes this animation method the clear winner. 🎉&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;which-js-library-to-use-for-svg-animation-&quot;&gt;Which JS library to use for SVG animation?&lt;/h4&gt;
+&lt;p&gt;Managing the boilerplate of animating SVGs, especially timing issues among a group of animations, can get difficult really quickly, so it can help to leverage a JavaScript library.  There were a few great libraries I found and quickly trialed before choosing for these demos, and here’s a short list of them:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://julian.com/research/velocity/&quot;&gt;Velocity.js&lt;/a&gt;&lt;/strong&gt; is really cool.  It’s a super-optimized, API compatible, drop-in replacement for jQuery’s &lt;code&gt;$.animate()&lt;/code&gt; method without the performance issues and with broswer compatability going across the the board and all the way back to IE8.  The project was also back by Stripe, who are known for their cool UI animations.  It’s under the &lt;a href=&quot;https://en.wikipedia.org/wiki/MIT_License&quot;&gt;MIT License&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://greensock.com/docs/#/HTML5/GSAP/&quot;&gt;GreenSock Animation Platform&lt;/a&gt;&lt;/strong&gt; (GSAP) seems to be the best choice for gaining full control over large, complex animations. Their concepts of attaching things to timelines, and grouping animations to be triggered in different orders is some powerful stuff.  It’s under the &lt;a href=&quot;http://greensock.com/standard-license&quot;&gt;Standard “No Charge” GreenSock License&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap SVG&lt;/a&gt;&lt;/strong&gt; is a library that flies under the Adobe flag, but was written by and based on the work of the guy who created &lt;a href=&quot;http://raphaeljs.com/&quot;&gt;Raphaël&lt;/a&gt;.  It claims to make “working with your SVG assets as easy as jQuery makes working with the DOM”, and is compatible across broswers and with IE9+.  I found it equally as simple to use the library to draw shapes on the page, or manipulate existing SVGs.  It also has some AJAX capabilities baked in for dynamically grabbing SVGs from whereever and injecting them into the document.  It’s under the &lt;a href=&quot;https://github.com/adobe-webplatform/Snap.svg/blob/master/LICENSE&quot;&gt;Apache 2 License&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For this demo I decided to use Snap SVG because I’m just really digging that library right now.  You can geek out on the commented code for this in &lt;a href=&quot;./main.js&quot; target=&quot;_blank&quot;&gt;&lt;code&gt;main.js&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    SVG animation demo - OKR Grading
+&lt;/span&gt;&lt;/p&gt;
+&lt;svg version=&quot;1.1&quot; id=&quot;svg&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; x=&quot;0px&quot; y=&quot;0px&quot;
+     width=&quot;500px&quot; height=&quot;500px&quot; viewBox=&quot;0 0 500 500&quot; enable-background=&quot;new 0 0 500 500&quot; xml:space=&quot;preserve&quot;&gt;
+
+&lt;path id=&quot;mouth&quot; fill=&quot;none&quot; stroke=&quot;#E5D0AE&quot; stroke-width=&quot;5&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;10&quot; d=&quot;
+        M 127.771,351.329 c 0,0 40.860771,0 120.770151,0 c 70.909379,0 120.770152,0 120.770152,0&quot;/&gt;
+
+&lt;g id=&quot;eyes&quot;&gt;
+    &lt;circle fill=&quot;#E5D0AE&quot; stroke=&quot;#E5D0AE&quot; stroke-width=&quot;5&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;10&quot; cx=&quot;155&quot; cy=&quot;170&quot; r=&quot;7.5&quot;/&gt;
+
+    &lt;circle fill=&quot;#E5D0AE&quot; stroke=&quot;#E5D0AE&quot; stroke-width=&quot;5&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;10&quot; cx=&quot;345&quot; cy=&quot;170&quot; r=&quot;7.5&quot;/&gt;
+&lt;/g&gt;
+
+&lt;circle id=&quot;face-outline&quot; fill=&quot;none&quot; stroke=&quot;#E5D0AE&quot; stroke-width=&quot;5&quot; stroke-linecap=&quot;round&quot; stroke-linejoin=&quot;round&quot; stroke-miterlimit=&quot;10&quot; cx=&quot;250&quot; cy=&quot;250&quot; r=&quot;244.275&quot;/&gt;
+&lt;/svg&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;range&quot; id=&quot;grade-slider&quot; style=&quot;width:160px;&quot; min=0 max=1 value=0.5 step=0.01&gt;
+&lt;span id=&quot;grade&quot;&gt;0.5&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;textarea&gt;&lt;/textarea&gt;&lt;/p&gt;
+&lt;button id=&quot;submit&quot;&gt;Grade this OKR!&lt;/button&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;./snap.svg.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;./sweetalert.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;./main.js&quot;&gt;&lt;/script&gt;
+</description>
+    </item>
     <item>
       <title>motion design (part 1 of 2)</title>
       <link>sketches.kevinsalter.me/articles/8-motion-design-part-1/</link>
