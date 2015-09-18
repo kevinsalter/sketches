@@ -43,9 +43,18 @@ window.onload = function() {
     })
 
     submitButton.addEventListener('click', function(e) {
+
+        var assessmentText = '';
+
+        if (assessment.value !== '') {
+            assessmentText = '<blockquote class="assessment-text">' +
+                                '<strong>Assessment: </strong>' + assessment.value +
+                             '</blockquote>';
+        }
+
         swal({
           title: 'Nice Job!',
-          text: 'You gave this OKR a grade of <strong>' + slider.value + '</strong>',
+          text: 'You gave this OKR a grade of <strong>' + slider.value + '</strong>' + assessmentText,
           type: 'success',
           confirmButtonText: 'Awesome!',
           html: true
