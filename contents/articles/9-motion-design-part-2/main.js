@@ -10,7 +10,7 @@ window.onload = function() {
 
     var mouthAnimation = function(sliderValue) {
         yM = (sliderValue * -60) + 381.329;
-        yc1 = +(sliderValue * 100).toFixed(2) - 50;
+        yc1 = ((sliderValue * 100) - 50).toFixed(2);
         yc2 = yc1 * -1;
 
         pathDescription = 'M 127.771,' + yM.toFixed(3) +
