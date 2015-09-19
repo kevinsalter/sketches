@@ -19,8 +19,8 @@ window.onload = function() {
                           ' c 70.909379,0 120.770152,' + yc2 + ' 120.770152,' + yc2;
 
         mouth.animate(
-            { d: pathDescription},
-            1 // this 1ms delay avoid Snap.svg throwing console errors ¯\_(ツ)_/¯
+            { d: pathDescription },
+            1 // this 1ms delay stops Snap.svg from throwing console errors ¯\_(ツ)_/¯
         );
     }
 
