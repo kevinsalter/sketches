@@ -5,9 +5,47 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Thu, 17 Sep 2015 17:00:00 -0700</pubDate>
+    <pubDate>Thu, 24 Sep 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>ia sketches</title>
+      <link>sketches.kevinsalter.me/articles/10-ia-sketches/</link>
+      <pubDate>Thu, 24 Sep 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/10-ia-sketches/</guid>
+      <author></author>
+      <description>&lt;blockquote&gt;
+    &lt;strong&gt;Information Architecture (IA)&lt;/strong&gt; is… um, a lot of things.&lt;br&gt;&lt;br&gt;
+    &lt;div style=&quot;margin-left: 30px;&quot;&gt;– me, paraphrasing &lt;em&gt;Wikipedia&lt;/em&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For the purposes of this exercise, I think it’s fair to classify “information architecture” as the organization, labeling, navigation system, and layout of a web application to better support its usability and key workflows.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&quot;design-constraints&quot;&gt;Design Constraints&lt;/h4&gt;
+&lt;p&gt;In order to tame the infinite potential of this design, we came up with some constraints to better frame the problem we’re trying to solve.  This will also help to measure if new designs have been successful.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Target Roles:&lt;/span&gt;&lt;/em&gt; Team Member, Manager (2 of the &lt;a href=&quot;https://7geese.atlassian.net/wiki/display/PD/Compiled+Workflows&quot;&gt;4 roles&lt;/a&gt; we’ve defined)&lt;br&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Typical Example Network:&lt;/span&gt;&lt;/em&gt; We’re imagining that this design is targeted at a company with 50+ employees that has departments set and runs performance management processes (which were set up at least 6 months ago) using 1 or more of 7Geese’s core features.&lt;br&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Ultimate Goal:&lt;/span&gt;&lt;/em&gt; Better enable users to succeed with their company’s performance management process.&lt;br&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&quot;text-decoration: underline;&quot;&gt;Execution Time:&lt;/span&gt;&lt;/em&gt; The new design should be able to be implemented by the dev team within a 3-month timespan.&lt;/p&gt;
+&lt;h4 id=&quot;-my-daily-routine-with-7geese-&quot;&gt;“My Daily Routine with 7Geese”&lt;/h4&gt;
+&lt;p&gt;That was the title of a blog post I was working on before the IA project came to be.  The idea emerged during a chat with Max at one of our front-end meetings where we asked: “Why doesn’t 7Geese just tell me what to do, or at least where to start?”&lt;/p&gt;
+&lt;p&gt;Ultimately, it’s the same question we’re asking in this project: “How can we help users be successful with their company’s PM process?”&lt;/p&gt;
+&lt;p&gt;That’s a great start, but what could that look like?  Could 7Geese generate relevant, actionable TODO lists based on a user’s activity and position in the org chart?  Maybe we could set up scheduled &lt;a href=&quot;http://sketches.kevinsalter.me/articles/2-1-on-1-alert/&quot;&gt;alerts&lt;/a&gt; that remind users at certain times to give certain tasks attention?  Would a “follow model”, à la Twitter, help users focus on messages and notifications they care about, and ignore information that is irrelevant?&lt;/p&gt;
+&lt;p&gt;My favourite idea that’s been suggested so far is that the homepage could function more as a customized dashboard.  A lot of information is duplicated between the Cycles page, Profile page, and the current Homepage.  That information could be more relevantly arranged in a way that’s not only informational, but actionable as well.  Personally, this will by the root of my first concepts presented here.&lt;/p&gt;
+&lt;p&gt;As always, &lt;a href=&quot;sketches.kevinsalter.me/articles/10-ia-sketches/#disqus_thread&quot;&gt;leave a comment below if something comes to mind!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;hr&gt;&lt;/p&gt;
+&lt;h4 id=&quot;appendix-a-_the-cutting-room-floor_&quot;&gt;Appendix A: &lt;em&gt;the cutting room floor&lt;/em&gt;&lt;/h4&gt;
+&lt;p&gt;There’s another idea that is a bit too abstract to pursue, but I think is interesting to mention.&lt;/p&gt;
+&lt;p&gt;The idea is that a user would have an interactive, customizable sub-set of the org chart that they would visually arrange in a way that’s relevant to them. It would actually be like a combination of Google+ circles and a follow model, essentially adding the ability to group people like others in your department, your reports, who you report to, who you’re collaborating with on specific OKRs, etc.  Finally, the visual arrangement of these groups would serve as a kind of custom org chart, and could also possibly affect the types of notifications a user receives regarding things like feedback requests, 1-on-1 reminders, department level OKR updates, etc.&lt;/p&gt;
+&lt;p&gt;Again, this is likely more on the impractical side, but cool to imagine.  It’s also harder for me to relate to this concept because it doesn’t apply to companies as small as 7Geese, so it’s harder to reason about pragmatically.&lt;/p&gt;
+&lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    user dashboard concept
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;dashboard ia sketches&quot;&gt;&lt;/p&gt;
+</description>
+    </item>
     <item>
       <title>motion design (part 2 of 2)</title>
       <link>sketches.kevinsalter.me/articles/9-motion-design-part-2/</link>
