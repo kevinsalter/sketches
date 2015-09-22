@@ -85,13 +85,6 @@ _<span style="display: inline-block;border-bottom: 1px solid #999;">note:</span>
 <hr>
 As always, [leave a comment below if something comes to mind!](#disqus_thread)
 <hr>
-#### Appendix A: _the cutting room floor_
-
-There's another idea that is a bit too abstract to pursue, but I think is interesting to mention.
-
-The idea is that a user would have an interactive, customizable sub-set of the org chart that they would visually arrange in a way that's relevant to them. It would actually be like a combination of Google+ circles and a follow model, essentially adding the ability to group people like others in your department, your reports, who you report to, who you're collaborating with on specific OKRs, etc.  Finally, the visual arrangement of these groups would serve as a kind of custom org chart, and could also possibly affect the types of notifications a user receives regarding things like feedback requests, 1-on-1 reminders, department level OKR updates, etc.
-
-Again, this is likely more on the impractical side, but cool to imagine.  It's also harder for me to relate to this concept because it doesn't apply to companies as small as 7Geese, so it's harder to reason about pragmatically.
 
 <p class="article-end"></p>
 
