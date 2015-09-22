@@ -19,7 +19,7 @@ For the purposes of this exercise, I think it's fair to classify "information ar
 In order to tame the infinite possibilities of this design, we came up with some constraints to better frame the problem we're trying to solve.  This will also help to measure if new designs have been successful.
 
 _<span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Target Roles:</span>_ Team Member, Manager (2 of the [4 roles](https://7geese.atlassian.net/wiki/display/PD/Compiled+Workflows) we've defined)<br><br>
-_<span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Typical Example Network:</span>_ We're imagining that this design is targeted at a company with 50+ employees that has departments set and runs performance management processes (which were set up at least 6 months ago) using 1 or more of 7Geese's core features.<br><br>
+_<span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Typical Example Network:</span>_ We're imagining that this design is targeted at a company with 50+ employees that has departments set and runs performance management processes (which were set up at least 6 months ago) using 1 or more of 7Geese's core features _(OKRs, Cycles, Recognition, Feedback, 1-on-1s)_.<br><br>
 _<span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Ultimate Goal:</span>_ Better enable users to succeed with their company's performance management process.<br><br>
 _<span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Execution Time:</span>_ The new design should be able to be implemented by the dev team within a 3-month timespan.
 
@@ -35,7 +35,7 @@ My favourite idea that's been suggested so far is that the homepage could functi
 
 #### Job Stories
 
-I used the [job stories](https://blog.intercom.io/using-job-stories-design-features-ui-ux/) paradigm as one technique to channel my thinking throughout this process of exploring the <span style="background: lavender;">context, causality, anxieties, and [motivations and forces](https://medium.com/the-job-to-be-done/5-tips-for-writing-a-job-story-7c9092911fc9#21ab) of what 7Geese users do now</span>.  Also, I thought that if some of these designs were successful, this pattern might make them [easier to test](https://robots.thoughtbot.com/test-driven-product-design) later on.
+I used the [job stories](https://blog.intercom.io/using-job-stories-design-features-ui-ux/) paradigm as one technique to channel my thinking throughout this process of exploring the <span style="background: lavender;">context, causality, anxieties, and [motivations and forces](https://medium.com/the-job-to-be-done/5-tips-for-writing-a-job-story-7c9092911fc9#21ab) of what 7Geese users do now</span>.  This paradigm is equally important in helping to avoid focusing on useless items such as assumptions, subjectiveness, personas, and implementations before putting pen to paper.  Finally, I thought that if some of these designs were successful, this pattern might make them [easier to test](https://robots.thoughtbot.com/test-driven-product-design) later on.
 
 <span class="annotation">
     As a quick reminder, this is the anatomy of a typical Job Story.
@@ -44,13 +44,21 @@ I used the [job stories](https://blog.intercom.io/using-job-stories-design-featu
 
 ##### <span style="display: inline-block;border-bottom: 1px solid #555;padding-bottom: 2px;margin-bottom: 10px;">Role: Team Member</span>
 
-- When I log in to 7Geese I want to know which objectives haven't been assessed within the last 2 weeks so I can tend to them by checking in and updating their assessment status.
-- When I log in to 7Geese I want to know if I have a scheduled 1-on-1 coming up that I haven't prepared for so I can set aside time to prepare for it.
+- When I log in to 7Geese...
+    - ...I want to know which objectives haven't been assessed within the last 2 weeks so I can take action by checking in and updating their assessment status.
+    - ...I want to know if I have a scheduled 1-on-1 coming up that I haven't prepared for so I can set aside time to prepare for it.
+    - ...I want to clearly see my progress on cycle requirements because I'm concerned that I won't meet my quarterly quotas and I'm concerned that my manager and teammates will see that my objectives are Off Track.
+    - ...I want to see how the progress I have made so far this quarter has contributed to Department and Organizational level OKRs because I want to myself and my colleagues to recognize how I'm contributing to the bigger picture.
+
+- When viewing a list of my teammates...
+    - ...I want to see how their progress is trending because I want to see if I can supprt them in their tasks and/or I want to reconigize them if they've done something exceptional.
 
 ##### <span style="display: inline-block;border-bottom: 1px solid #555;padding-bottom: 2px;margin-bottom: 10px;">Role: Manager</span>
 
-- When I log in to 7Geese I want to know how my reports are progressing with their OKRs in case I should reach out and ask if they need help.
-- When viewing a list of my reports I want to know who has scheduled and/or prepared their next 1-on-1 and if not, send them a reminder.
+- When I log in to 7Geese...
+    - ...I want to know how my reports are progressing with their OKRs in case I should reach out and ask if they need help becauase I want them to be engaged and On Track.
+- When viewing a list of my reports...
+    - ...I want to know who has scheduled and/or prepared their next 1-on-1 and if not, send them a reminder.
 
 <hr>
 As always, [leave a comment below if something comes to mind!](#disqus_thread)

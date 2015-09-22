@@ -34,7 +34,7 @@
 <h4 id="design-constraints">Design&nbsp;Constraints</h4>
 <p>In order to tame the infinite possibilities of this design, we came up with some constraints to better frame the problem we’re trying to solve.  This will also help to measure if new designs have been&nbsp;successful.</p>
 <p><em><span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Target Roles:</span></em> Team Member, Manager (2 of the <a href="https://7geese.atlassian.net/wiki/display/PD/Compiled+Workflows">4 roles</a> we’ve defined)<br><br>
-<em><span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Typical Example Network:</span></em> We’re imagining that this design is targeted at a company with 50+ employees that has departments set and runs performance management processes (which were set up at least 6 months ago) using 1 or more of 7Geese’s core features.<br><br>
+<em><span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Typical Example Network:</span></em> We’re imagining that this design is targeted at a company with 50+ employees that has departments set and runs performance management processes (which were set up at least 6 months ago) using 1 or more of 7Geese’s core features <em>(OKRs, Cycles, Recognition, Feedback, 1-on-1s)</em>.<br><br>
 <em><span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Ultimate Goal:</span></em> Better enable users to succeed with their company’s performance management process.<br><br>
 <em><span style="border-bottom: 1px solid #555;padding-bottom: 2px;">Execution Time:</span></em> The new design should be able to be implemented by the dev team within a 3-month&nbsp;timespan.</p>
 <h4 id="-my-daily-routine-with-7geese-">“My Daily Routine with&nbsp;7Geese”</h4>
@@ -43,20 +43,37 @@
 <p>That’s a great start, but what could that look like?  Could 7Geese generate relevant, actionable <span class="caps">TODO</span> lists based on a user’s activity and position in the org chart?  Maybe we could set up scheduled <a href="http://sketches.kevinsalter.me/articles/2-1-on-1-alert/">alerts</a> that remind users at certain times to give certain tasks attention?  Would a “follow model”, à la Twitter, help users focus on messages and notifications they care about, and ignore information that is&nbsp;irrelevant?</p>
 <p>My favourite idea that’s been suggested so far is that the homepage could function more as a customized user dashboard.  A lot of information is duplicated between the Cycles page, Profile page, and the current Homepage.  That information could be more relevantly arranged in a way that’s not only informational, but actionable as well.  Personally, this will by the root of my first concepts presented&nbsp;here.</p>
 <h4 id="job-stories">Job&nbsp;Stories</h4>
-<p>I used the <a href="https://blog.intercom.io/using-job-stories-design-features-ui-ux/">job stories</a> paradigm as one technique to channel my thinking throughout this process of exploring the <span style="background: lavender;">context, causality, anxieties, and <a href="https://medium.com/the-job-to-be-done/5-tips-for-writing-a-job-story-7c9092911fc9#21ab">motivations and forces</a> of what 7Geese users do now</span>.  Also, I thought that if some of these designs were successful, this pattern might make them <a href="https://robots.thoughtbot.com/test-driven-product-design">easier to test</a> later&nbsp;on.</p>
+<p>I used the <a href="https://blog.intercom.io/using-job-stories-design-features-ui-ux/">job stories</a> paradigm as one technique to channel my thinking throughout this process of exploring the <span style="background: lavender;">context, causality, anxieties, and <a href="https://medium.com/the-job-to-be-done/5-tips-for-writing-a-job-story-7c9092911fc9#21ab">motivations and forces</a> of what 7Geese users do now</span>.  This paradigm is equally important in helping to avoid focusing on useless items such as assumptions, subjectiveness, personas, and implementations before putting pen to paper.  Finally, I thought that if some of these designs were successful, this pattern might make them <a href="https://robots.thoughtbot.com/test-driven-product-design">easier to test</a> later&nbsp;on.</p>
 <p><span class="annotation">
     As a quick reminder, this is the anatomy of a typical Job Story.
 </span>
 <img src="/articles/10-ia-sketches/JobStoryAnatomy.png" alt="job story anatomy"></p>
 <h5 id="-span-style-display-inline-block-border-bottom-1px-solid-555-padding-bottom-2px-margin-bottom-10px-role-team-member-span-"><span style="display: inline-block;border-bottom: 1px solid #555;padding-bottom: 2px;margin-bottom: 10px;">Role: Team&nbsp;Member</span></h5>
 <ul>
-<li>When I log in to 7Geese I want to know which objectives haven’t been assessed within the last 2 weeks so I can tend to them by checking in and updating their assessment&nbsp;status.</li>
-<li>When I log in to 7Geese I want to know if I have a scheduled 1-on-1 coming up that I haven’t prepared for so I can set aside time to prepare for&nbsp;it.</li>
+<li><p>When I log in to&nbsp;7Geese…</p>
+<ul>
+<li>…I want to know which objectives haven’t been assessed within the last 2 weeks so I can take action by checking in and updating their assessment&nbsp;status.</li>
+<li>…I want to know if I have a scheduled 1-on-1 coming up that I haven’t prepared for so I can set aside time to prepare for&nbsp;it.</li>
+<li>…I want to clearly see my progress on cycle requirements because I’m concerned that I won’t meet my quarterly quotas and I’m concerned that my manager and teammates will see that my objectives are Off&nbsp;Track.</li>
+<li>…I want to see how the progress I have made so far this quarter has contributed to Department and Organizational level OKRs because I want to myself and my colleagues to recognize how I’m contributing to the bigger&nbsp;picture.</li>
+</ul>
+</li>
+<li><p>When viewing a list of my&nbsp;teammates…</p>
+<ul>
+<li>…I want to see how their progress is trending because I want to see if I can supprt them in their tasks and/or I want to reconigize them if they’ve done something&nbsp;exceptional.</li>
+</ul>
+</li>
 </ul>
 <h5 id="-span-style-display-inline-block-border-bottom-1px-solid-555-padding-bottom-2px-margin-bottom-10px-role-manager-span-"><span style="display: inline-block;border-bottom: 1px solid #555;padding-bottom: 2px;margin-bottom: 10px;">Role:&nbsp;Manager</span></h5>
 <ul>
-<li>When I log in to 7Geese I want to know how my reports are progressing with their OKRs in case I should reach out and ask if they need&nbsp;help.</li>
-<li>When viewing a list of my reports I want to know who has scheduled and/or prepared their next 1-on-1 and if not, send them a&nbsp;reminder.</li>
+<li>When I log in to 7Geese…<ul>
+<li>…I want to know how my reports are progressing with their OKRs in case I should reach out and ask if they need help becauase I want them to be engaged and On&nbsp;Track.</li>
+</ul>
+</li>
+<li>When viewing a list of my reports…<ul>
+<li>…I want to know who has scheduled and/or prepared their next 1-on-1 and if not, send them a&nbsp;reminder.</li>
+</ul>
+</li>
 </ul>
 <p><hr>
 As always, <a href="/articles/10-ia-sketches/#disqus_thread">leave a comment below if something comes to&nbsp;mind!</a></p>
