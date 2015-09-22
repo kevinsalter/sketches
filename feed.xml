@@ -19,7 +19,7 @@
     &lt;div style=&quot;margin-left: 30px;&quot;&gt;– me, paraphrasing &lt;em&gt;Wikipedia&lt;/em&gt;&lt;/div&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;For the purposes of this exercise, I think it’s fair to classify “information architecture” as the organization, labeling, navigation system, and layout of a web application to better support its usability and key workflows.&lt;/p&gt;
+&lt;p&gt;For the purposes of this exercise, I think it’s fair to classify “information architecture” as &lt;span style=&quot;background: lavender;&quot;&gt;the organization, labeling, navigation system, and layout of a web application to better support its usability and key workflows&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;h4 id=&quot;design-constraints&quot;&gt;Design Constraints&lt;/h4&gt;
 &lt;p&gt;In order to tame the infinite possibilities of this design, we came up with some constraints to better frame the problem we’re trying to solve.  This will also help to measure if new designs have been successful.&lt;/p&gt;

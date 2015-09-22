@@ -10,7 +10,7 @@ template: article.jade
     <div style="margin-left: 30px;">– me, paraphrasing _Wikipedia_</div>
 </blockquote>
 
-For the purposes of this exercise, I think it's fair to classify "information architecture" as the organization, labeling, navigation system, and layout of a web application to better support its usability and key workflows.
+For the purposes of this exercise, I think it's fair to classify "information architecture" as <span style="background: lavender;">the organization, labeling, navigation system, and layout of a web application to better support its usability and key workflows</span>.
 
 <span class="more"></span>
 
