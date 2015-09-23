@@ -42,7 +42,8 @@ Another design decision I made for the sketches is the use of the [cards](https:
     <li>• Recognition card</li>
     <li>• 1-on-1 card</li>
     <li>• Feedback card</li>
-    <li>• OKR card</li>
+    <li>• Objectives card</li>
+    <li>• My Impact card</li>
     <li>• Reflection card</li>
     <li>• Cycles Stats card</li>
     <li>• Department cards</li>
@@ -106,14 +107,9 @@ As always, [leave a comment below if something comes to mind!](#disqus_thread)
 ![ia sketches](./oneonone-and-cycles-with-notes.jpg)
 
 <span class="annotation">
-    user dashboard cards concept - okrs, recognition
+    "my impact" card with notes
 </span>
-![card ia sketches 2](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
-
-<span class="annotation">
-    okrs and recognition cards with notes
-</span>
-![ia sketches](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+![ia sketches](./my-impact-card-with-notes.jpg)
 
 <span class="annotation">
     [feed](http://sketches.kevinsalter.me/articles/6-feed-me/) card concept
