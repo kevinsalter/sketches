@@ -1,7 +1,7 @@
 ---
 title: "ia sketches"
 author: kevinsalter
-date: 2015-09-25
+date: 2015-09-23
 template: article.jade
 ---
 
@@ -31,7 +31,9 @@ Ultimately, it's the same question we're asking in this project: "How can we hel
 
 That's a great start, but what could that look like?  Could 7Geese generate relevant, actionable TODO lists based on a user's activity and position in the org chart?  Maybe we could set up scheduled [alerts](http://sketches.kevinsalter.me/articles/2-1-on-1-alert/) that remind users at certain times to give certain tasks attention?  Would a "follow model", à la Twitter, help users focus on messages and notifications they care about, and ignore information that is irrelevant?
 
-My favourite idea that's been suggested so far is that the homepage could function more as a customized user dashboard.  A lot of information is duplicated between the Cycles page, Profile page, and the current Homepage.  That information could be more relevantly arranged in a way that's not only informational, but actionable as well.  Personally, this will by the root of my first concepts presented in the sketches here – the idea that the cycles and profile pages are gone, and the user dashboard is the new homepage (and where you would view someone else's cycle, for example).
+My favourite idea that's been suggested so far is that the homepage could function more as a customized user dashboard.  A lot of information is duplicated between the Cycles page, Profile page, and the current Homepage.  That information could be more relevantly arranged in a way that's not only informational, but actionable as well.
+
+Personally, this will by the root of my first concepts presented in the sketches here – the idea that the cycles and profile pages are gone, and the user dashboard is the new homepage (and where you would view someone else's cycle, for example).  I'm also choosing to leave the navigation as it is because I feel changing it would be too drastic given the design constraints.  So you can imagine the sketches below as having the current navigation above them.
 
 Another design decision I made for the sketches is the use of the [cards](https://blog.intercom.io/why-cards-are-the-future-of-the-web/) design pattern.  I decided it would help me to focus if I just made a call and had that be clear from the outset.  This helped to divide the main features into composable modules, such as:
 
@@ -89,6 +91,31 @@ As always, [leave a comment below if something comes to mind!](#disqus_thread)
 <p class="article-end"></p>
 
 <span class="annotation">
-    user dashboard concept
+    user dashboard cards concept - profile, my reports, 1-on-1s, cycles
 </span>
-![dashboard ia sketches](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+![card ia sketches 1](./ia-cards1.jpg)
+
+<span class="annotation">
+    profile and my reports cards with notes
+</span>
+![ia sketches](./profile-and-reports-with-notes.jpg)
+
+<span class="annotation">
+    1-on-1s and cycles cards with notes
+</span>
+![ia sketches](./oneonone-and-cycles-with-notes.jpg)
+
+<span class="annotation">
+    user dashboard cards concept - okrs, recognition
+</span>
+![card ia sketches 2](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+
+<span class="annotation">
+    okrs and recognition cards with notes
+</span>
+![ia sketches](https://placeholdit.imgix.net/~text?txtsize=33&txt=wait%20for%20it...&w=800&h=500)
+
+<span class="annotation">
+    [feed](http://sketches.kevinsalter.me/articles/6-feed-me/) card concept
+</span>
+![ia sketches](./long-feed.jpg)

@@ -5,13 +5,13 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Thu, 24 Sep 2015 17:00:00 -0700</pubDate>
+    <pubDate>Tue, 22 Sep 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>ia sketches</title>
       <link>sketches.kevinsalter.me/articles/10-ia-sketches/</link>
-      <pubDate>Thu, 24 Sep 2015 17:00:00 -0700</pubDate>
+      <pubDate>Tue, 22 Sep 2015 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">sketches.kevinsalter.me/articles/10-ia-sketches/</guid>
       <author></author>
       <description>&lt;blockquote&gt;
@@ -31,7 +31,8 @@
 &lt;p&gt;That was the title of a blog post I was working on before the IA project came to be.  The idea emerged during a chat with Max at one of our front-end meetings where we asked: “Why doesn’t 7Geese just tell me what to do, or at least where to start?”&lt;/p&gt;
 &lt;p&gt;Ultimately, it’s the same question we’re asking in this project: “How can we help users be successful with their company’s PM process?”&lt;/p&gt;
 &lt;p&gt;That’s a great start, but what could that look like?  Could 7Geese generate relevant, actionable TODO lists based on a user’s activity and position in the org chart?  Maybe we could set up scheduled &lt;a href=&quot;http://sketches.kevinsalter.me/articles/2-1-on-1-alert/&quot;&gt;alerts&lt;/a&gt; that remind users at certain times to give certain tasks attention?  Would a “follow model”, à la Twitter, help users focus on messages and notifications they care about, and ignore information that is irrelevant?&lt;/p&gt;
-&lt;p&gt;My favourite idea that’s been suggested so far is that the homepage could function more as a customized user dashboard.  A lot of information is duplicated between the Cycles page, Profile page, and the current Homepage.  That information could be more relevantly arranged in a way that’s not only informational, but actionable as well.  Personally, this will by the root of my first concepts presented in the sketches here – the idea that the cycles and profile pages are gone, and the user dashboard is the new homepage (and where you would view someone else’s cycle, for example).&lt;/p&gt;
+&lt;p&gt;My favourite idea that’s been suggested so far is that the homepage could function more as a customized user dashboard.  A lot of information is duplicated between the Cycles page, Profile page, and the current Homepage.  That information could be more relevantly arranged in a way that’s not only informational, but actionable as well.&lt;/p&gt;
+&lt;p&gt;Personally, this will by the root of my first concepts presented in the sketches here – the idea that the cycles and profile pages are gone, and the user dashboard is the new homepage (and where you would view someone else’s cycle, for example).  I’m also choosing to leave the navigation as it is because I feel changing it would be too drastic given the design constraints.  So you can imagine the sketches below as having the current navigation above them.&lt;/p&gt;
 &lt;p&gt;Another design decision I made for the sketches is the use of the &lt;a href=&quot;https://blog.intercom.io/why-cards-are-the-future-of-the-web/&quot;&gt;cards&lt;/a&gt; design pattern.  I decided it would help me to focus if I just made a call and had that be clear from the outset.  This helped to divide the main features into composable modules, such as:&lt;/p&gt;
 &lt;p&gt;&lt;ul style=&quot;column-count: 2; -webkit-column-count: 2; -moz-column-count: 2;list-style: none&quot;&gt;
     &lt;li&gt;• Profile card&lt;/li&gt;
@@ -94,9 +95,29 @@ As always, &lt;a href=&quot;sketches.kevinsalter.me/articles/10-ia-sketches/#dis
 &lt;p class=&quot;article-end&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
-    user dashboard concept
+    user dashboard cards concept - profile, my reports, 1-on-1s, cycles
 &lt;/span&gt;
-&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;dashboard ia sketches&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;sketches.kevinsalter.me/articles/10-ia-sketches/ia-cards1.jpg&quot; alt=&quot;card ia sketches 1&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    profile and my reports cards with notes
+&lt;/span&gt;
+&lt;img src=&quot;sketches.kevinsalter.me/articles/10-ia-sketches/profile-and-reports-with-notes.jpg&quot; alt=&quot;ia sketches&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    1-on-1s and cycles cards with notes
+&lt;/span&gt;
+&lt;img src=&quot;sketches.kevinsalter.me/articles/10-ia-sketches/oneonone-and-cycles-with-notes.jpg&quot; alt=&quot;ia sketches&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    user dashboard cards concept - okrs, recognition
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;card ia sketches 2&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    okrs and recognition cards with notes
+&lt;/span&gt;
+&lt;img src=&quot;https://placeholdit.imgix.net/~text?txtsize=33&amp;amp;txt=wait%20for%20it...&amp;amp;w=800&amp;amp;h=500&quot; alt=&quot;ia sketches&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;annotation&quot;&gt;
+    &lt;a href=&quot;http://sketches.kevinsalter.me/articles/6-feed-me/&quot;&gt;feed&lt;/a&gt; card concept
+&lt;/span&gt;
+&lt;img src=&quot;sketches.kevinsalter.me/articles/10-ia-sketches/long-feed.jpg&quot; alt=&quot;ia sketches&quot;&gt;&lt;/p&gt;
 </description>
     </item>
     <item>
