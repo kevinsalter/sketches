@@ -107,9 +107,9 @@ As always, [leave a comment below if something comes to mind!](#disqus_thread)
 ![ia sketches](./oneonone-and-cycles-with-notes.jpg)
 
 <span class="annotation">
-    "my impact" card with notes
+    "my impact" card concept
 </span>
-![ia sketches](./my-impact-card-with-notes.jpg)
+![ia sketches](./my-impact-card.jpg)
 
 <span class="annotation">
     [feed](http://sketches.kevinsalter.me/articles/6-feed-me/) card concept
