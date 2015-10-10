@@ -5,9 +5,75 @@
     <atom:link href="sketches.kevinsalter.me/feed.xml" rel="self" type="application/rss+xml"></atom:link>
     <link>sketches.kevinsalter.me</link>
     <description>✍</description>
-    <pubDate>Tue, 22 Sep 2015 17:00:00 -0700</pubDate>
+    <pubDate>Fri, 09 Oct 2015 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
+    <item>
+      <title>7Geese GitHub Issue Bookmarklet</title>
+      <link>sketches.kevinsalter.me/articles/11-github-issue-bookmarklet/</link>
+      <pubDate>Fri, 09 Oct 2015 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">sketches.kevinsalter.me/articles/11-github-issue-bookmarklet/</guid>
+      <author></author>
+      <description>&lt;style&gt;
+  .btn {
+    display: inline-block;
+    padding: 4px 10px 4px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333333;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(top, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border: 1px solid #ccc;
+    border-bottom-color: #bbb;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    *margin-left: .3em;
+  }
+  .btn:hover,
+  .btn:active,
+  .btn.active,
+  .btn.disabled,
+  .btn[disabled] {
+    background-color: #e6e6e6;
+    text-decoration: none;
+  }
+&lt;/style&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Drag and drop this button into the bookmarks toolbar in your browser. &lt;a href=&quot;javascript:(function() {var e = document.getElementById('issue_body');if (e) {e.value += '### Changelog:\n\n**Subject:**\n\n----------\n\n## Steps to Reproduce\n\n\n## Expected Result\n\n\n## Actual Result\n\n\n## Screenshot\n\n\nRequires documentation?  yes/no\nRequires tests?  yes/no\nRequires migration?  yes/no';}})();&quot; class=&quot;btn&quot;&gt;7Geese GitHub Issue Template&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Head on over to &lt;a href=&quot;https://github.com/7Geese/7Geese/issues/new&quot;&gt;https://github.com/7Geese/7Geese/issues/new&lt;/a&gt;, then click on the bookmarklet to fill in the textarea with the issue template!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Profit 💸&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;video autoplay loop tabindex=&quot;0&quot; style=&quot;max-width:715px;&quot;&gt;
+  &lt;source src=&quot;./bookmarklet-video.webmhd.webm&quot;&gt;
+  &lt;source src=&quot;./bookmarklet-video.mp4.mp4&quot;&gt;
+&lt;/video&gt;
+</description>
+    </item>
     <item>
       <title>ia sketches</title>
       <link>sketches.kevinsalter.me/articles/10-ia-sketches/</link>
@@ -269,7 +335,7 @@ This is &lt;a href=&quot;https://dribbble.com/shots/2075475-KickMaterial-Kicksta
 &lt;li&gt;when new messages appear at the top of the feed&lt;/li&gt;
 &lt;li&gt;when new notifications are available (icon background colour and the number indicator in the nav bar)&lt;/li&gt;
 &lt;li&gt;when modal dialogs appear/disappear&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&lt;a href=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/#disqus_thread&quot;&gt;some other idea you just thought of…&lt;/a&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;_&lt;a href=&quot;sketches.kevinsalter.me/articles/8-motion-design-part-1/#disqus_thread&quot;&gt;some other idea you just thought of…&lt;/a&gt;_&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;hr&gt;
 In &lt;strong&gt;Part 2&lt;/strong&gt; I’ll use &lt;a href=&quot;http://www.adobe.com/ca/products/aftereffects.html&quot;&gt;After Effects&lt;/a&gt; or maybe &lt;a href=&quot;http://snapsvg.io/&quot;&gt;Snap.svg&lt;/a&gt; to make one of these sketches move.  Also, I might need to do some consulting on the finer points of SVGs… Kevin Fales, I’m looking at you. 👀
@@ -297,7 +363,7 @@ In &lt;strong&gt;Part 2&lt;/strong&gt; I’ll use &lt;a href=&quot;http://www.ad
 &lt;h4 id=&quot;reflection-what-s-the-point-&quot;&gt;Reflection: What’s the point?&lt;/h4&gt;
 &lt;p&gt;For me, the greatest strength of the reflection process lies in its proclivity to harvest the learnings of personal experience and apply that knowledge to future tasks.  Said another way, &lt;a href=&quot;http://web.mit.edu/cil/web_scripts/www/Critical%20Moments%20Methodology%20Brief%20CoLab.pdf&quot;&gt;it requires the reconstruction and reinterpretation of the experience illuminated by its results&lt;/a&gt;.  We can learn from our mistakes (redos) and not be doomed to repeat them.  We can gain a clarity that sparks decisive action. In the startup world, people &lt;a href=&quot;http://firstround.com/review/the-most-dangerous-leadership-traps-and-the-15-minute-daily-practice-that-will-save-you/&quot;&gt;can’t afford to have low learning efficiency. They must milk each experience for maximum learning. Reflection is the key for accelerating your learning curve&lt;/a&gt;.  And by being good learners, we become good teachers by sharing that expertise with the rest of the team.&lt;/p&gt;
 &lt;h4 id=&quot;tone-context-and-habit&quot;&gt;Tone, Context, and Habit&lt;/h4&gt;
-&lt;p&gt;When composing personal thoughts and feelings in solitude before sharing them with colleagues in a group situation, it’s important to establish the right tone.  People should feel safe to publish their reflection in a conversational, clear, truthful way.  They should be able to fearlessly talk about wins and identify road blocks knowing that their teammates are there to &lt;a href=&quot;https://www.youtube.com/watch?v=QhXJe8ANws8&amp;amp;feature=youtu.be&quot;&gt;support and collaborate&lt;/a&gt;. &lt;em&gt;(&amp;lt;— highly, highly recommend this video)&lt;/em&gt;  Ideally they would publish their reflection habitually as part of a timely, consistent cycle.  This not only creates a record of their progress and a powerful feedback loop with teammates, but also holds the individual accountable to maintaining the process.&lt;/p&gt;
+&lt;p&gt;When composing personal thoughts and feelings in solitude before sharing them with colleagues in a group situation, it’s important to establish the right tone.  People should feel safe to publish their reflection in a conversational, clear, truthful way.  They should be able to fearlessly talk about wins and identify road blocks knowing that their teammates are there to &lt;a href=&quot;https://www.youtube.com/watch?v=QhXJe8ANws8&amp;amp;feature=youtu.be&quot;&gt;support and collaborate&lt;/a&gt;. &lt;em&gt;(&amp;lt;– highly, highly recommend this video)&lt;/em&gt;  Ideally they would publish their reflection habitually as part of a timely, consistent cycle.  This not only creates a record of their progress and a powerful feedback loop with teammates, but also holds the individual accountable to maintaining the process.&lt;/p&gt;
 &lt;h4 id=&quot;methodologies&quot;&gt;Methodologies&lt;/h4&gt;
 &lt;p&gt;I’ve come across several methodologies that would be really interesting to try and interpret and apply in the context of software and 7Geese.  It’s out of the scope of this post to explore different methods, but quickly, it’d be cool to explore &lt;a href=&quot;http://web.mit.edu/cil/web_scripts/www/Critical%20Moments%20Methodology%20Brief%20CoLab.pdf&quot;&gt;Critical Moment Reflection Methodology&lt;/a&gt;, &lt;a href=&quot;http://firstround.com/review/the-most-dangerous-leadership-traps-and-the-15-minute-daily-practice-that-will-save-you/#text_0c261222fe6c4890b423ad167d4e4e5f&quot;&gt;Integral Theory&lt;/a&gt;, the &lt;a href=&quot;https://en.wikipedia.org/wiki/Reflective_practice#Gibbs_1988&quot;&gt;Gibbs model of reflection&lt;/a&gt;, or &lt;a href=&quot;https://en.wikipedia.org/wiki/Reflective_practice&quot;&gt;any of these, really&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;For this post, I’d like to narrow the focus to imaging what it would be like to combine our current workflow of Weekly Priorities with Reflection (wins, obstacles, proud, learning, redos) in a way that allows for engagement and feedback from colleagues, which would ultimately obviate the Feedback module.&lt;/p&gt;
